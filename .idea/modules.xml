@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/january.iml" filepath="$PROJECT_DIR$/.idea/january.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pythonPartTime/.idea/pythonPartTime.iml" filepath="$PROJECT_DIR$/../pythonPartTime/.idea/pythonPartTime.iml" />
+    </modules>
+  </component>
+</project>
