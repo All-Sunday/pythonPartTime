@@ -39,6 +39,7 @@ def get_res1(start_url, s_date, e_date, key_words, a_list_num, domain, driver, h
     all_a_list = []
     driver.switch_to.window(handles[0])
     driver.get(start_url)
+    
 
 
     for key_word in key_words:      # 循环搜索关键词
