@@ -1,4 +1,4 @@
-# @Description: TODO
+# @Description: 在ic交易网查询型号 统计第一页 有现货排名、优先、热卖标志的数量总和
 # @Author https://github.com/All-Sunday All-Sunday
 # @Time 2022/1/16 17:22
 # @File : people_com.py
@@ -50,8 +50,12 @@ def get_res(start_url, s_date, e_date, df, key_words, res_path, res_wk, res_shee
         i += 1
         # driver.find_element_by_xpath('//input[@id="key"]').clear()
         # driver.find_element_by_xpath('//input[@id="key"]').send_keys(key_word + '\n')
-        driver.get('https://www.ic.net.cn/search/' + key_word + '.html?isExact=1')
+        target_url = 'https://www.ic.net.cn/search/' + key_word + '.html?isExact=1'
+        driver.get(target_url)
         time.sleep(0.5)
+        if target_url != driver.current_url:
+            driver.get(target_url)
+            time.sleep(0.5)
         # li_list = driver.find_elements_by_xpath('//ul[@id="resultList"]/li')[5:]
         li_list = driver.find_elements_by_xpath('//ul[@id="resultList"]/li[@class="stair_tr"]')
 
@@ -92,10 +96,14 @@ def get_res(start_url, s_date, e_date, df, key_words, res_path, res_wk, res_shee
         # print(data)
         if (i % 100) == 0:
             print(i)
+        if (i % 10) == 0:
+            driver.find_element_by_xpath('//a[@id="LOGO"]').click()
+            time.sleep(0.6)
         res_sheet.append(data)
         res_wk.save(res_path)
 
         time.sleep(0.2)
+
     # time.sleep(100)
     return
 
@@ -115,7 +123,7 @@ def start(s_date, e_date, df, key_words, res_path, amount, domain, chromedriver_
 
 if __name__ == '__main__':
     file_path = r'E:\code_workplace\python\2022\january\data\ic_net_cn\20220112数据.xlsx'
-    df = pd.read_excel(file_path).iloc[469:1000]
+    df = pd.read_excel(file_path).iloc[19609:19800]
     df = df[['品牌', '型号']]
     # print(type(df['型号'].values))   # <class 'numpy.ndarray'>
     # time.sleep(100)
@@ -136,5 +144,5 @@ if __name__ == '__main__':
     chrome_port = '9222'
 
     i = 0
-    start(s_date, e_date, df, key_words, file_path[:-5] + 'res' + '1000' + '.xlsx', amount, domain[i], chromedriver_path, chrome_port)
+    start(s_date, e_date, df, key_words, file_path[:-5] + 'res' + '20000' + '.xlsx', amount, domain[i], chromedriver_path, chrome_port)
 
