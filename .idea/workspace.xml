@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e953f83-15df-4183-90ad-21a4ffa564fb" name="Changes" comment="202202226">
-      <change afterPath="$PROJECT_DIR$/tb_excel_filter/Worklist update7.py" afterDir="false" />
+    <list default="true" id="3e953f83-15df-4183-90ad-21a4ffa564fb" name="Changes" comment="20220315">
+      <change afterPath="$PROJECT_DIR$/appium_delivery/openpyll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_delivery/seleniom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_delivery/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_delivery/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium_delivery/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/douyin_com/selenium_mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tb_excel_filter/copy_sheets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/january.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/january.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tb_excel_filter/Worklist update6.py" beforeDir="false" afterPath="$PROJECT_DIR$/tb_excel_filter/Worklist update6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tb_excel_filter/Worklist update7.py" beforeDir="false" afterPath="$PROJECT_DIR$/tb_excel_filter/Worklist update7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -72,15 +81,15 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="Jupyter Settings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code_workplace\python\2022\january\tb_excel_filter" />
+      <recent name="E:\code_workplace\python\2022\january\tb_excel_filter\新建文件夹" />
+      <recent name="E:\code_workplace\python\2022\january\appium_delivery" />
       <recent name="E:\code_workplace\python\2022\january\qcc_com" />
       <recent name="E:\code_workplace\python\2022\january\gameflip_com\price" />
-      <recent name="E:\code_workplace\python\2022\january\gameflip_com" />
-      <recent name="E:\code_workplace\python\2022\january\ic_net_cn" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\code_workplace\python\2022\january" />
@@ -90,8 +99,30 @@
       <recent name="E:\code_workplace\python\2022\january\peopel_com" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Worklist update7">
-    <configuration name="Worklist update" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.copy_sheets">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="january" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\code_soft\anaconda3\envs\exe_appium\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="copy_sheets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="january" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,7 +135,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tb_excel_filter/Worklist update.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tb_excel_filter/copy_sheets.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Worklist update6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="openpyll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="january" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,12 +152,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tb_excel_filter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_delivery" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tb_excel_filter/Worklist update6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium_delivery/openpyll.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Worklist update7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="seleniom" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
       <module name="january" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,12 +174,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tb_excel_filter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_delivery" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tb_excel_filter/Worklist update7.py" />
+      <option name="SCRIPT_NAME" value="E:\code_workplace\python\2022\january\appium_delivery\seleniom.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bilibili_duration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="january" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,12 +196,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bilibili" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_delivery" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bilibili/bilibili_duration.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium_delivery/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,7 +210,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandas_processor1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="january" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,12 +218,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tb_excel_filter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_delivery" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\code_workplace\python\2022\january\tb_excel_filter\pandas_processor1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium_delivery/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,13 +232,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.test1" />
+      <item itemvalue="Python.test2" />
+      <item itemvalue="Python.seleniom" />
+      <item itemvalue="Python.openpyll" />
+      <item itemvalue="Python.copy_sheets" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Worklist update7" />
-        <item itemvalue="Python.Worklist update6" />
-        <item itemvalue="Python.Worklist update" />
-        <item itemvalue="Python.pandas_processor1" />
-        <item itemvalue="Python.bilibili_duration" />
+        <item itemvalue="Python.copy_sheets" />
+        <item itemvalue="Python.openpyll" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +289,11 @@
       <workItem from="1646986127571" duration="3130000" />
       <workItem from="1647253283910" duration="307000" />
       <workItem from="1647331446186" duration="4466000" />
-      <workItem from="1647337034301" duration="1175000" />
+      <workItem from="1647337034301" duration="1604000" />
+      <workItem from="1647486030030" duration="2145000" />
+      <workItem from="1647662341741" duration="1850000" />
+      <workItem from="1647683401310" duration="22626000" />
+      <workItem from="1647868971755" duration="11124000" />
     </task>
     <task id="LOCAL-00001" summary="两台电脑跑 暂时告一段落 网页跳转回主页还未修改">
       <created>1642421424773</created>
@@ -309,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646984581512</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="20220315">
+      <created>1647338239830</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647338239830</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +381,8 @@
     <MESSAGE value="exe版  还未实现搜索后翻页" />
     <MESSAGE value="20220222" />
     <MESSAGE value="202202226" />
-    <option name="LAST_COMMIT_MESSAGE" value="202202226" />
+    <MESSAGE value="20220315" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220315" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -468,9 +518,14 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tb_excel_filter/Worklist update7.py</url>
-          <line>58</line>
+          <url>file://$PROJECT_DIR$/appium_delivery/seleniom.py</url>
+          <line>24</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tb_excel_filter/copy_sheets.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -481,28 +536,33 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/january$people_com_selenium_pandas.coverage" NAME="people_com_selenium_pandas Coverage Results" MODIFIED="1641741289493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/peopel_com" />
     <SUITE FILE_PATH="coverage/january$excel_processor.coverage" NAME="excel_processor Coverage Results" MODIFIED="1642607629552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
     <SUITE FILE_PATH="coverage/january$Worklist_update.coverage" NAME="Worklist update Coverage Results" MODIFIED="1646289363788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
     <SUITE FILE_PATH="coverage/january$seleniumc__1_.coverage" NAME="seleniumc (1) Coverage Results" MODIFIED="1643085985007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
-    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9222.coverage" NAME="selenium_openpyxl_9222 Coverage Results" MODIFIED="1642605080395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
     <SUITE FILE_PATH="coverage/january$selenium_pandas.coverage" NAME="selenium_pandas Coverage Results" MODIFIED="1642651249898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
-    <SUITE FILE_PATH="coverage/january$Worklist_update7.coverage" NAME="Worklist update7 Coverage Results" MODIFIED="1647337948999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
     <SUITE FILE_PATH="coverage/january$test_proxy.coverage" NAME="test_proxy Coverage Results" MODIFIED="1642562348057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
     <SUITE FILE_PATH="coverage/january$selenium_pandas_exe.coverage" NAME="selenium_pandas_exe Coverage Results" MODIFIED="1642662359043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
-    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9225.coverage" NAME="selenium_openpyxl_9225 Coverage Results" MODIFIED="1642407112181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
     <SUITE FILE_PATH="coverage/january$start.coverage" NAME="start Coverage Results" MODIFIED="1642662445512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
     <SUITE FILE_PATH="coverage/january$pandas_drop.coverage" NAME="pandas_drop Coverage Results" MODIFIED="1643262415864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tsv_pandas_drop" />
-    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9224.coverage" NAME="selenium_openpyxl_9224 Coverage Results" MODIFIED="1642407813277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
     <SUITE FILE_PATH="coverage/january$commodity__1_.coverage" NAME="commodity (1) Coverage Results" MODIFIED="1643086139548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
     <SUITE FILE_PATH="coverage/january$seleniump.coverage" NAME="seleniump Coverage Results" MODIFIED="1642747514542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com/price" />
-    <SUITE FILE_PATH="coverage/january$_1_.coverage" NAME="企查查(1) Coverage Results" MODIFIED="1644919307240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_com" />
-    <SUITE FILE_PATH="coverage/january$people_com_selenium_pandas__1_.coverage" NAME="people_com_selenium_pandas (1) Coverage Results" MODIFIED="1642391331326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$openpyll.coverage" NAME="openpyll Coverage Results" MODIFIED="1647872875099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
     <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9223.coverage" NAME="selenium_openpyxl_9223 Coverage Results" MODIFIED="1642590656220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
-    <SUITE FILE_PATH="coverage/january$selenium_openpyxl.coverage" NAME="selenium_openpyxl Coverage Results" MODIFIED="1644495338382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vip_cric_com" />
-    <SUITE FILE_PATH="coverage/january$Worklist_update6.coverage" NAME="Worklist update6 Coverage Results" MODIFIED="1646988310418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
     <SUITE FILE_PATH="coverage/january$people_com.coverage" NAME="people_com Coverage Results" MODIFIED="1641724133338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/january$bilibili_duration.coverage" NAME="bilibili_duration Coverage Results" MODIFIED="1645352667395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibili" />
+    <SUITE FILE_PATH="coverage/january$people_com_selenium_pandas.coverage" NAME="people_com_selenium_pandas Coverage Results" MODIFIED="1641741289493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/peopel_com" />
+    <SUITE FILE_PATH="coverage/january$copy_sheets.coverage" NAME="copy_sheets Coverage Results" MODIFIED="1647926689275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
+    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9222.coverage" NAME="selenium_openpyxl_9222 Coverage Results" MODIFIED="1642605080395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$Worklist_update7.coverage" NAME="Worklist update7 Coverage Results" MODIFIED="1647492125661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
+    <SUITE FILE_PATH="coverage/january$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1647871766302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
+    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9225.coverage" NAME="selenium_openpyxl_9225 Coverage Results" MODIFIED="1642407112181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1647871426601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
+    <SUITE FILE_PATH="coverage/january$test.coverage" NAME="test Coverage Results" MODIFIED="1647868303299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
+    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9224.coverage" NAME="selenium_openpyxl_9224 Coverage Results" MODIFIED="1642407813277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$_1_.coverage" NAME="企查查(1) Coverage Results" MODIFIED="1644919307240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_com" />
+    <SUITE FILE_PATH="coverage/january$people_com_selenium_pandas__1_.coverage" NAME="people_com_selenium_pandas (1) Coverage Results" MODIFIED="1642391331326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$selenium_openpyxl.coverage" NAME="selenium_openpyxl Coverage Results" MODIFIED="1644495338382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vip_cric_com" />
+    <SUITE FILE_PATH="coverage/january$Worklist_update6.coverage" NAME="Worklist update6 Coverage Results" MODIFIED="1646988310418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
     <SUITE FILE_PATH="coverage/january$pandas_processor.coverage" NAME="pandas_processor Coverage Results" MODIFIED="1646285648260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
   </component>
 </project>
