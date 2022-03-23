@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e953f83-15df-4183-90ad-21a4ffa564fb" name="Changes" comment="20220315">
-      <change afterPath="$PROJECT_DIR$/appium_delivery/openpyll.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_delivery/seleniom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_delivery/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_delivery/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_delivery/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/douyin_com/selenium_mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tb_excel_filter/copy_sheets.py" afterDir="false" />
+    <list default="true" id="3e953f83-15df-4183-90ad-21a4ffa564fb" name="Changes" comment="20220322">
+      <change afterPath="$PROJECT_DIR$/appium_delivery/pandos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_03/PY_03_05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_03/PY_03_06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_03/PY_03_07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_03/PY_03_08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_03/PY_03_09.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/january.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/january.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tb_excel_filter/Worklist update7.py" beforeDir="false" afterPath="$PROJECT_DIR$/tb_excel_filter/Worklist update7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appium_delivery/openpyll.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_delivery/openpyll.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tb_excel_filter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/douyin_com" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -85,11 +84,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code_workplace\python\2022\january\douyin_com" />
+      <recent name="E:\code_workplace\python\2022\january\appium_delivery" />
       <recent name="E:\code_workplace\python\2022\january\tb_excel_filter" />
       <recent name="E:\code_workplace\python\2022\january\tb_excel_filter\新建文件夹" />
-      <recent name="E:\code_workplace\python\2022\january\appium_delivery" />
       <recent name="E:\code_workplace\python\2022\january\qcc_com" />
-      <recent name="E:\code_workplace\python\2022\january\gameflip_com\price" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\code_workplace\python\2022\january" />
@@ -99,7 +98,117 @@
       <recent name="E:\code_workplace\python\2022\january\peopel_com" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.copy_sheets">
+  <component name="RunManager" selected="Python.PY_03_05">
+    <configuration name="PY_03_05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="january" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xy_0323_homework/PY_03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xy_0323_homework/PY_03/PY_03_05.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PY_03_06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="january" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xy_0323_homework/PY_03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xy_0323_homework/PY_03/PY_03_06.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PY_03_07" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="january" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xy_0323_homework/PY_03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xy_0323_homework/PY_03/PY_03_07.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PY_03_08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="january" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xy_0323_homework/PY_03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xy_0323_homework/PY_03/PY_03_08.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PY_03_09" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="january" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xy_0323_homework/PY_03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xy_0323_homework/PY_03/PY_03_09.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="january" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,50 +223,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="copy_sheets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="january" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tb_excel_filter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tb_excel_filter/copy_sheets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="openpyll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="january" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_delivery" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium_delivery/openpyll.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,64 +253,22 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="january" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_delivery" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium_delivery/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="january" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_delivery" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium_delivery/test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.test1" />
-      <item itemvalue="Python.test2" />
       <item itemvalue="Python.seleniom" />
-      <item itemvalue="Python.openpyll" />
-      <item itemvalue="Python.copy_sheets" />
+      <item itemvalue="Python.PY_03_05" />
+      <item itemvalue="Python.PY_03_06" />
+      <item itemvalue="Python.PY_03_07" />
+      <item itemvalue="Python.PY_03_08" />
+      <item itemvalue="Python.PY_03_09" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.copy_sheets" />
-        <item itemvalue="Python.openpyll" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test1" />
+        <item itemvalue="Python.PY_03_05" />
+        <item itemvalue="Python.PY_03_06" />
+        <item itemvalue="Python.PY_03_07" />
+        <item itemvalue="Python.PY_03_08" />
+        <item itemvalue="Python.PY_03_09" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +316,7 @@
       <workItem from="1647486030030" duration="2145000" />
       <workItem from="1647662341741" duration="1850000" />
       <workItem from="1647683401310" duration="22626000" />
-      <workItem from="1647868971755" duration="11124000" />
+      <workItem from="1647868971755" duration="44782000" />
     </task>
     <task id="LOCAL-00001" summary="两台电脑跑 暂时告一段落 网页跳转回主页还未修改">
       <created>1642421424773</created>
@@ -358,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647338239830</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="20220322">
+      <created>1647927692505</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647927692505</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +412,8 @@
     <MESSAGE value="20220222" />
     <MESSAGE value="202202226" />
     <MESSAGE value="20220315" />
-    <option name="LAST_COMMIT_MESSAGE" value="20220315" />
+    <MESSAGE value="20220322" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220322" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -539,6 +570,7 @@
     <SUITE FILE_PATH="coverage/january$excel_processor.coverage" NAME="excel_processor Coverage Results" MODIFIED="1642607629552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
     <SUITE FILE_PATH="coverage/january$Worklist_update.coverage" NAME="Worklist update Coverage Results" MODIFIED="1646289363788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
     <SUITE FILE_PATH="coverage/january$seleniumc__1_.coverage" NAME="seleniumc (1) Coverage Results" MODIFIED="1643085985007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
+    <SUITE FILE_PATH="coverage/january$PY_03_09.coverage" NAME="PY_03_09 Coverage Results" MODIFIED="1648043397507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
     <SUITE FILE_PATH="coverage/january$selenium_pandas.coverage" NAME="selenium_pandas Coverage Results" MODIFIED="1642651249898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
     <SUITE FILE_PATH="coverage/january$test_proxy.coverage" NAME="test_proxy Coverage Results" MODIFIED="1642562348057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
     <SUITE FILE_PATH="coverage/january$selenium_pandas_exe.coverage" NAME="selenium_pandas_exe Coverage Results" MODIFIED="1642662359043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
@@ -546,19 +578,24 @@
     <SUITE FILE_PATH="coverage/january$pandas_drop.coverage" NAME="pandas_drop Coverage Results" MODIFIED="1643262415864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tsv_pandas_drop" />
     <SUITE FILE_PATH="coverage/january$commodity__1_.coverage" NAME="commodity (1) Coverage Results" MODIFIED="1643086139548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
     <SUITE FILE_PATH="coverage/january$seleniump.coverage" NAME="seleniump Coverage Results" MODIFIED="1642747514542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com/price" />
-    <SUITE FILE_PATH="coverage/january$openpyll.coverage" NAME="openpyll Coverage Results" MODIFIED="1647872875099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
+    <SUITE FILE_PATH="coverage/january$openpyll.coverage" NAME="openpyll Coverage Results" MODIFIED="1648024637967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
     <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9223.coverage" NAME="selenium_openpyxl_9223 Coverage Results" MODIFIED="1642590656220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
     <SUITE FILE_PATH="coverage/january$people_com.coverage" NAME="people_com Coverage Results" MODIFIED="1641724133338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/january$bilibili_duration.coverage" NAME="bilibili_duration Coverage Results" MODIFIED="1645352667395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibili" />
+    <SUITE FILE_PATH="coverage/january$PY_03_06.coverage" NAME="PY_03_06 Coverage Results" MODIFIED="1648043575353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
     <SUITE FILE_PATH="coverage/january$people_com_selenium_pandas.coverage" NAME="people_com_selenium_pandas Coverage Results" MODIFIED="1641741289493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/peopel_com" />
     <SUITE FILE_PATH="coverage/january$copy_sheets.coverage" NAME="copy_sheets Coverage Results" MODIFIED="1647926689275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
     <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9222.coverage" NAME="selenium_openpyxl_9222 Coverage Results" MODIFIED="1642605080395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$PY_03_07.coverage" NAME="PY_03_07 Coverage Results" MODIFIED="1648043474423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
     <SUITE FILE_PATH="coverage/january$Worklist_update7.coverage" NAME="Worklist update7 Coverage Results" MODIFIED="1647492125661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
     <SUITE FILE_PATH="coverage/january$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1647871766302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
     <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9225.coverage" NAME="selenium_openpyxl_9225 Coverage Results" MODIFIED="1642407112181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$PY_03_08.coverage" NAME="PY_03_08 Coverage Results" MODIFIED="1648043437062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
     <SUITE FILE_PATH="coverage/january$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1647871426601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
+    <SUITE FILE_PATH="coverage/january$pandos.coverage" NAME="pandos Coverage Results" MODIFIED="1647939827026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
     <SUITE FILE_PATH="coverage/january$test.coverage" NAME="test Coverage Results" MODIFIED="1647868303299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
     <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9224.coverage" NAME="selenium_openpyxl_9224 Coverage Results" MODIFIED="1642407813277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$PY_03_05.coverage" NAME="PY_03_05 Coverage Results" MODIFIED="1648043609259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
     <SUITE FILE_PATH="coverage/january$_1_.coverage" NAME="企查查(1) Coverage Results" MODIFIED="1644919307240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_com" />
     <SUITE FILE_PATH="coverage/january$people_com_selenium_pandas__1_.coverage" NAME="people_com_selenium_pandas (1) Coverage Results" MODIFIED="1642391331326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
     <SUITE FILE_PATH="coverage/january$selenium_openpyxl.coverage" NAME="selenium_openpyxl Coverage Results" MODIFIED="1644495338382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vip_cric_com" />
