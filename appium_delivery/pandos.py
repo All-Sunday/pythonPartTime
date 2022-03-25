@@ -86,7 +86,7 @@ def task1(*args):
                 with open(device_port + ".txt", "a") as f:  # 写入txt
                     f.write('\n模拟器' + device_port + '  ********不是13位：' + str(get_num))
                 continue
-            # print(num)
+            print(num)
 
             try:
                 el34.send_keys(num)
@@ -100,8 +100,9 @@ def task1(*args):
                 fail_num += 1
             else:
                 success_num += 1
-            if (getattr(row, 'Index') % 10) == 0:
-                print('模拟器' + device_port + '  成功：', success_num, '失败：', fail_num)
+            # if (getattr(row, 'Index') % 10) == 0:
+            #     print('模拟器' + device_port + '  成功：', success_num, '失败：', fail_num)
+            print('模拟器' + device_port + '  成功：', success_num, '失败：', fail_num)
     finally:
         with open(device_port + ".txt", "a") as f:  # 写入txt
             f.write('\n模拟器' + device_port + '  成功：' + str(success_num) + '失败：' + str(fail_num))

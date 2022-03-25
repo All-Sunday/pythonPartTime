@@ -8,13 +8,13 @@ else:
     else:
         gpa = 0
     if score >= 90:
-        print(str(score) + '分对应的绩点为' + str(gpa) + '，五级制等第为A')
+        print(str(score) + '分对应的绩点为%.2f' % gpa + '，五级制等第为A')
     elif score >= 80:
-        print(str(score) + '分对应的绩点为' + str(gpa) + '，五级制等第为B')
+        print(str(score) + '分对应的绩点为%.2f' % gpa + '，五级制等第为B')
     elif score >= 70:
-        print(str(score) + '分对应的绩点为' + str(gpa) + '，五级制等第为C')
+        print(str(score) + '分对应的绩点为%.2f' % gpa + '，五级制等第为C')
     elif score >= 60:
-        print(str(score) + '分对应的绩点为' + str(gpa) + '，五级制等第为D')
+        print(str(score) + '分对应的绩点为%.2f' % gpa + '，五级制等第为D')
     else:
-        print(str(score) + '分对应的绩点为' + str(gpa) + '，五级制等第为E')
+        print(str(score) + '分对应的绩点为%.2f' % gpa + '，五级制等第为E')
 print('=====END=====')
