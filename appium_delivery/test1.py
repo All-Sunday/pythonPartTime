@@ -38,6 +38,8 @@ time.sleep(30)
 
 time.sleep(30)
 el34 = driver.find_element(by=AppiumBy.ID, value="cn.chinapost.jdpt.pda.pickup:id/et_mail_no")
+# el34 = driver.find_element(by=AppiumBy.ID, value="cn.chinapost.jdpt.pda.pickup:id/empCode")
+# el34.send_keys('155')
 # df = pd.read_excel(r'【3.20漏扫补单】(1)(1).xlsx')
 df = pd.read_excel(excel_path)
 success_num = 0

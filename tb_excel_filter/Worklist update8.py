@@ -86,4 +86,5 @@ for parents, dirnames, filenames in os.walk(path, topdown=False):  # 循环判�
                         i -= 1
             wb.save(file)
 if selection == '2':  # 对所有月份保留四位小数 并输出次月加和前后不一致的表格名称
-    print(file_list)
+    for file in file_list:
+        print(file)

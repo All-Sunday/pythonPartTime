@@ -1,0 +1,20 @@
+appium -a 127.0.0.1 -p 4723 -bp 4724 -U 127.0.0.1:21503
+appium -a 127.0.0.1 -p 4725 -bp 4726 -U 127.0.0.1:21513
+appium -a 127.0.0.1 -p 4727 -bp 4728 -U 127.0.0.1:21523
+appium -a 127.0.0.1 -p 4729 -bp 4730 -U 127.0.0.1:21533
+
+appium -a 127.0.0.1 -p 4729 -bp 4730 -U 38D4C20508015250
+
+adb devices -l
+adb connect 127.0.0.1:21523
+E:\code_workplace\python\2022\january\appium_delivery\¡¾3.20Â©É¨²¹µ¥¡¿(1)(1).xlsx
+E:\code_workplace\python\2022\january\appium_delivery\3.22Â©É¨Êý¾Ý.xls
+866875030174856
+4210008600007
+@Abc1234567
+4210008648619
+@Abc123456789
+4210008600009
+@Ab123456789
+4210008600006
+@Ba123456789

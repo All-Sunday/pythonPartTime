@@ -1,0 +1,2011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 1.2.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="https://img.hcharts.cn/highcharts/highcharts.js"></script>
+    <script src="https://img.hcharts.cn/highcharts/modules/exporting.js"></script>
+    
+<style type="text/css" media="screen">
+body        { font-family: Microsoft YaHei;padding: 20px; font-size: 100%; }
+table       { font-size: 100%; }
+.table tbody tr td{
+            vertical-align: middle;
+        }
+/* -- heading ---------------------------------------------------------------------- */
+.heading .description, .attribute {
+    clear: both;
+}
+/* --- 失败和错误合集样式 -- Gelomen --- */
+.failCollection, .errorCollection {
+    width: 100px;
+    float: left;
+}
+#failCaseOl li {
+    color: red
+}
+#errorCaseOl li {
+    color: orange
+}
+/* --- 打开截图特效样式 -- Gelomen --- */
+.data-img{
+    cursor:pointer
+}
+.pic_looper{
+    width:100%;
+    height:100%;
+    position: fixed;
+    left: 0;
+    top:0;
+    opacity: 0.6;
+    background: #000;
+    display: none;
+    z-index: 100;
+}
+.pic_show{
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    text-align: center;
+    display: none;
+    z-index: 100;
+}
+.pic_box{
+    padding:10px;
+    width:90%;
+    height:90%;
+    margin:40px auto;
+    text-align: center;
+    overflow: hidden;
+}
+.pic_box img{
+    width: auto;
+    height: 100%;
+    -moz-box-shadow: 0px 0px 20px 0px #000;
+    -webkit-box-shadow: 0px 0px 20px 0px #000;
+    box-shadow: 0px 0px 20px 0px #000;
+}
+/* --- 饼状图div样式 -- Gelomen --- */
+#container {
+    width: 450px;
+    height: 300px;
+    float: left;
+}
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+.screenshot:link { text-decoration: none;color: deeppink; }
+.screenshot:visited { text-decoration: none;color: deeppink; }
+.screenshot:hover { text-decoration: none;color: darkcyan; }
+.screenshot:active { text-decoration: none;color: deeppink; }
+</style>
+
+</head>
+<body >
+<script language="javascript" type="text/javascript">
+    $(function(){
+        // 修改 失败 和 错误 用例里对应按钮的颜色ClassName为动态加载 -- Gelomen
+        $("button").each(function () {
+            var text = $(this).text();
+            if(text == "失败"){
+                $(this).addClass("btn-danger")
+            }else if(text == "错误") {
+                $(this).addClass("btn-warning")
+            }
+        });
+        // 给失败和错误合集加样式 -- Gelomen
+        var p_attribute = $("p.attribute");
+        p_attribute.eq(4).addClass("failCollection");
+        p_attribute.eq(5).addClass("errorCollection");
+        // 打开截图，放大，点击任何位置可以关闭图片  -- Gelomen
+        $(".screenshot").click(function(){
+            var img = $(this).attr("img");
+            $('.pic_show img').attr('src', img);
+            $('.pic_looper').fadeIn(200);
+            $('.pic_show').fadeIn(200);
+            var browserHeight = $(window).height();
+            var pic_boxHeight = $(".pic_box").height();
+            var top = (browserHeight - pic_boxHeight)/2;
+            $('.pic_box').css("margin-top", top + "px")
+        });
+        $('.pic_looper, .pic_show').click(function(){
+            $('.pic_looper').fadeOut(200);
+            $('.pic_show').fadeOut(200)
+        });
+        var browserWidth = $(window).width();
+        var margin_left = browserWidth/2 - 450;
+        if(margin_left <= 240){
+            $("#container").css("margin", "auto");
+        }else {
+            $("#container").css("margin-left", margin_left + "px");
+        }
+        $(window).resize(function(){
+            // 改变窗口大小时，自动改变图片与顶部的距离  -- Gelomen
+            var browserHeight = $(window).height();
+            var pic_boxHeight = $(".pic_box").height();
+            var top = (browserHeight - pic_boxHeight)/2;
+            $('.pic_box').css("margin-top", top + "px");
+            // 改变窗口大小时，自动改变饼图的边距  -- Gelomen
+            var browserWidth = $(window).width();
+            var margin_left = browserWidth/2 - 450;
+            if(margin_left <= 240){
+                $("#container").css("margin", "auto");
+            }else {
+                $("#container").css("margin-left", margin_left + "px");
+            }
+        });
+        // 距离顶部超过浏览器窗口一屏时，回到顶部按钮才出现  -- Gelomen
+        $(window).scroll(function(){
+            var browserHeight = $(window).height();
+            var top = $(window).scrollTop();
+            if(top >= browserHeight){
+                $("#toTop").css("display", "block")
+            }else {
+                $("#toTop").css("display", "none")
+            }
+        })
+        // 增加回到顶部过程的动画，以看上去不会那么生硬  -- Gelomen
+        $("#toTop").click(function() {
+            $("html,body").animate({"scrollTop":0}, 700)
+        })
+        // 增加饼状图  -- Gelomen
+        $('#container').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                spacing : [0, 0, 0, 0]
+            },
+            credits: {
+                enabled: false
+            },
+            navigation: {
+                buttonOptions: {
+                    enabled: false
+                }
+            },
+            title: {
+                floating:true,
+                text: '测试结果占比'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    colors: ['#81ca9d', '#f16d7e', '#fdc68c'],
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                        style: {
+                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                        }
+                    },
+                    point: {
+                        events: {
+                            mouseOver: function(e) {  // 鼠标滑过时动态更新标题
+                                chart.setTitle({
+                                    text: e.target.name+ '\t'+ e.target.y + ' 个'
+                                });
+                            }
+                        }
+                    }
+                }
+            },
+            series: [{
+                type: 'pie',
+                innerSize: '80%',
+                name: '比例',
+                data: [
+                    ['通过', 224],
+                    {
+                        name: '失败',
+                        y: 0,
+                        sliced: true,
+                        selected: true
+                    },
+                    ['错误', 0]
+                ]
+            }]
+        }, function(c) {
+            // 环形图圆心
+            var centerY = c.series[0].center[1],
+                titleHeight = parseInt(c.title.styles.fontSize);
+            c.setTitle({
+                y:centerY + titleHeight/2
+            });
+            chart = c;
+        });
+        // 查看 失败 和 错误 合集链接文字切换  -- Gelomen
+        $(".showDetail").click(function () {
+            if($(this).html() == "点击查看"){
+                $(this).html("点击收起")
+            }else {
+                $(this).html("点击查看")
+            }
+        })
+    });
+output_list = Array();
+/*level 调整增加只显示通过用例的分类 --Findyou / 修复筛选显示bug --Gelomen
+0:Summary //all hiddenRow
+1:Failed  //pt&et hiddenRow, ft none
+2:Pass    //pt none, ft&et hiddenRow
+3:Error   //pt&ft hiddenRow, et none
+4:All     //all none
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 || level == 3) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+                // 切换筛选时只显示预览   -- Gelomen
+                $("div[id^='div_ft']").attr("class", "collapse");
+                $("div[id^='div_et']").attr("class", "collapse");
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level == 1 || level == 0 || level == 3) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+                // 切换筛选时只显示预览   -- Gelomen
+                $("div[id^='div_ft']").attr("class", "collapse");
+                $("div[id^='div_et']").attr("class", "collapse");
+            }
+        }
+        if (id.substr(0,2) == 'et') {
+            if (level == 1 || level == 0 || level == 2) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+                // 切换筛选时只显示预览   -- Gelomen
+                $("div[id^='div_ft']").attr("class", "collapse");
+                $("div[id^='div_et']").attr("class", "collapse");
+            }
+        }
+    }
+    //加入【详细】切换文字变化 --Findyou
+    detail_class=document.getElementsByClassName('detail');
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="收起"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="详细"
+        }
+    }
+}
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        //ID修改 点 为 下划线 -Findyou
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+            if (!tr) {
+                tid = 'e' + tid0;
+                tr = document.getElementById(tid);
+            }
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        //修改点击无法收起的BUG，加入【详细】切换文字变化 --Findyou
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "详细"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "收起"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+</script>
+<div class='pic_looper'></div> <div class='pic_show'><div class='pic_box'><img src=''/></div> </div>
+<div class='heading'>
+<div style="width: 650px; float: left;">
+    <h1 style="font-family: Microsoft YaHei">测试报告</h1>
+    <p class='attribute'><strong>测试人员 : </strong> s</p>
+<p class='attribute'><strong>开始时间 : </strong> 2022-04-09 22:04:34</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:32:11.954533</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 224，通过 224，通过率 = 100.00%</p>
+<p class='attribute'><strong>失败用例合集 : </strong> <ol style='float: left;'>无</ol></p>
+<p class='attribute'><strong>错误用例合集 : </strong> <ol style='float: left;'>无</ol></p>
+
+    <p class='description'>测试执行情况</p>
+</div>
+<div id="container"></div>
+</div>
+
+
+<div style="width: 500px; clear: both;">
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 224 }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-warning" href='javascript:showCase(3)'>错误{ 0 }</a>
+<a class="btn btn-info" href='javascript:showCase(4)'>所有{ 224 }</a>
+</p>
+</div>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' style="width: 300px;"/>
+<col align='right' style="width: 300px;"/>
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' style="width: 200px;"/>
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>用例集/测试用例</td>
+    <td>说明</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>耗时</td>
+    <td>详细</td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>TestUser</td>
+    <td></td>
+    <td class="text-center">50</td>
+    <td class="text-center">50</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">420.35秒</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',50)" class="detail" id='c1'>详细</a></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_1</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_10</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_11</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_12</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_5' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_13</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_6' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_14</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_7' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_15</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_8' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_16</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_9' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_2</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_10' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_3</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_11' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_4</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_12' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_5</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_13' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_6</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_14' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_7</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_15' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_8</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_16' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_1buy_9</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_17' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_2search_1__nan__nan_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_18' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_2search_2___电动车___nan_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_19' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_2search_3__nan___奥迪双钻__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_20' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_2search_4___电动车____雅迪__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_21' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_3comment_1_aaaaa</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_22' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_3comment_2_aaaaaaaaaa</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_23' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_3comment_3_aaaaaaaaaaaaaaaaaaaa</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_24' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_3comment_4_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_25' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_3comment_5_这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_26' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_3comment_6_这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_27' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_10___test____男___13800138000___a__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_28' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_11___test____男___13800138000___东__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_29' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_12___test____男___13800138000___东莞__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_30' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_13___test____男___13800138000___在东莞市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_31' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_14___test____男___13800138000___东莞市松山湖东莞理工__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_32' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_15___test____男___13800138000___东莞市松山湖东莞理工东莞市松山湖东莞理工__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_33' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_16___test____男___13800138000___东莞市松山湖东莞理工__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_34' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_17___test____男___13800138000___东莞市松山湖东莞理工__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_35' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_1_______男___13800138000___东莞市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_36' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_2___t____男___13800138000___东莞市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_37' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_3___testt____男___13800138000___东莞市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_38' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_4___测试测试测____男___13800138000___东莞市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_39' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_5___test____男___13800138000___东莞市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_40' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_6___test____女___13800138000___东莞市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_41' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_7___test____男________东莞市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_42' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_8___test____男___13800138000___东莞市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_43' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_4personal_info_9___test____男___13800138000_____</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_44' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_5password_1__123456__1__1_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_45' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_5password_2__1__12345__12345_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_46' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_5password_3__12345__1234567891__1234567891_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_47' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_5password_4__1234567891__123456__123456_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_48' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_9login_1___登录正常的买家账号和密码____test___123456_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_49' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_9login_2___登录正常的卖家账号和密码____aaa___123456_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt1_50' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_9login_3___登录正常的管理员账号和密码____admin___123456_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>TestSeller</td>
+    <td></td>
+    <td class="text-center">58</td>
+    <td class="text-center">58</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">487.32秒</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',58)" class="detail" id='c2'>详细</a></td>
+</tr>
+
+<tr id='pt2_1' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_1password_1__123456__1__1_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_2' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_1password_2__1__12345__12345_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_3' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_1password_3__12345__1234567891__1234567891_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_4' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_1password_4__1234567891__123456__123456_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_5' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_10___test____男______</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_6' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_11___test____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_7' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_12___test____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_8' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_13___test____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_9' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_14___test____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_10' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_15___test____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_11' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_16___test____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_12' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_17___test____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_13' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_18___test____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_14' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_19___test____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_15' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_1_______男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_16' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_20___test____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_17' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_2___t____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_18' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_3___testt____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_19' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_4___测试测试测____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_20' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_5_______男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_21' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_6_______男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_22' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_7_______男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_23' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_8___test____男___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_24' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_2personal_info_9___test____女___13800138000_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_25' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_1</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_26' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_10</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_27' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_11</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_28' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_12</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_29' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_13</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_30' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_14</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_31' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_15</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_32' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_16</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_33' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_17</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_34' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_2</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_35' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_3</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_36' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_4</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_37' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_5</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_38' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_6</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_39' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_7</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_40' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_8</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_41' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_3add_9</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_42' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_4buy_1___审核不通过_内容为空____不通过______________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_43' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_4buy_2___审核通过_内容为空____通过______________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_44' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_4buy_3___审核不通过_内容不为空____不通过____不OK__________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_45' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_4buy_4___审核通过_内容不为空____通过____ok__________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_46' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_4buy_5___查询订单_商品名称为爱玛电动车____________爱玛电动车______</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_47' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_4buy_6___查询订单_卖家账号为aaa________________aaa__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_48' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_seller_4buy_7___查询订单_商品名称为测试测试电动车____________测试测试电动车______</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_49' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_6comment_1_aaaaa</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_50' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_6comment_2_aaaaaaaaaa</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_51' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_6comment_3_aaaaaaaaaaaaaaaaaaaa</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_52' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_6comment_4_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_53' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_6comment_5_这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_54' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_6comment_6_这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言这是一条留言</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_55' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_7search_1__nan__nan_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_56' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_7search_2___电动车___nan_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_57' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_7search_3__nan___奥迪双钻__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt2_58' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_user_7search_4___电动车____雅迪__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>TestAdmin</td>
+    <td></td>
+    <td class="text-center">116</td>
+    <td class="text-center">116</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">1003.19秒</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c3',116)" class="detail" id='c3'>详细</a></td>
+</tr>
+
+<tr id='pt3_1' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_1password_1__123456__1__1_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_2' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_1password_2__1__12345__12345_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_3' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_1password_3__12345__1234567891__1234567891_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_4' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_1password_4__1234567891__123456__123456_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_5' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_2personal_info_1___修改个人信息_用户名为空______</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_6' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_2personal_info_2___修改个人信息_用户名为admin____admin__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_7' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_10___新增用户_姓名为8个字符____test7___123456___测试_________男___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_8' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_11___新增用户_姓名为24个字符____test8___123456___测试测试测试_________男___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_9' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_12___新增用户_地址为1个字符____test9___123456___测试_________男___13800138000___A__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_10' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_13___新增用户_地址为8个字符____test10___123456___测试_________男___13800138000___广州__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_11' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_14___新增用户_地址为24个字符____test11___123456___测试_________男___13800138000___广州市越秀区__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_12' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_15___新增用户_地址为72个字符____test12___123456___测试_________男___13800138000___广东省广州市越秀区东方路南方花园一栋__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_13' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_16___删除用户_选择具体用户______________________________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_14' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_17___查询用户_用户名为test____test__________________________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_15' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_18___查看用户详情_选择具体用户______________________________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_16' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_19___修改用户_修改用户名____TEST___123456___测试_________男___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_17' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_1___新增用户_姓名为空____test1___123456____________男___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_18' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_20___修改用户_修改密码____TEST___1234___测试_________男___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_19' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_21___修改用户_修改姓名____TEST___1234___测试测试_________男___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_20' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_22___修改用户_添加头像____TEST___1234___测试测试__________男___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_21' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_23___修改用户_添加性别____TEST___1234___测试测试__________女___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_22' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_24___修改用户_修改手机号码____TEST___1234___测试测试__________女___12345678900___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_23' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_25___修改用户_修改地址____TEST___1234___测试测试__________女___12345678900___东莞市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_24' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_26___修改用户_初始化____test___123456___test________男___13800138000___东莞市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_25' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_2___新增用户_头像为空____test2___123456___测试________男___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_26' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_3___新增用户_性别为空____test3___123456___测试____________13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_27' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_4___新增用户_手机为空____test4___123456___测试_________男________广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_28' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_5___新增用户_地址为空____test5___123456___测试_________男___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_29' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_6___新增用户_用户名为1个字符____t___123456___测试_________男___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_30' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_7___新增用户_用户名为10个字符____testtesttt___123456___测试_________男___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_31' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_8___新增用户_用户名为20个字符____ceshitestceshitesttt___123456___测试_________男___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_32' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_3user_9___新增用户_姓名为1个字符____test6___123456___A_________男___13800138000___广州市__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_33' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_10___新增卖家_姓名为24个字符____aaa7___123456___李明李明李明_________男___10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_34' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_11___删除卖家_选择具体卖家账号__________________________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_35' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_12___查询卖家_卖家账号为aaa____aaa______________________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_36' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_13___查询卖家_卖家姓名为李明____________李明______________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_37' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_14___查看卖家详情_选择具体卖家__________________________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_38' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_15___修改卖家_修改卖家账号____AAA___123456___李明_________男___10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_39' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_16___修改卖家_修改密码____AAA___1234___李明_________男___10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_40' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_17___修改卖家_修改姓名____AAA___1234___李明李明________男___10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_41' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_18___修改卖家_添加头像____AAA___1234___李明李明_________男___10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_42' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_19___修改卖家_添加性别____AAA___1234___李明李明_________女___10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_43' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_1___新增卖家_姓名为空____aaa1___123456____________男___10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_44' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_20___修改卖家_修改手机号码____AAA___1234___李明李明_________女___12345678900_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_45' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_21___修改卖家_初始化____aaa___123456___aaa________女___15538651234_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_46' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_2___新增卖家_头像为空____aaa2___123456___李明________男___10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_47' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_3___新增卖家_性别为空____aaa3___123456___李明____________10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_48' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_4___新增卖家_手机为空____aaa4___123456___李明_________男______</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_49' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_5___新增卖家_卖家账号名为1个字符____a___123456___李明_________男___10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_50' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_6___新增卖家_卖家账号名为10个字符____abcdeabcde___123456___李明_________男___10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_51' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_7___新增卖家_卖家账号名为20个字符____abcdeabcdeabcdeabcde___123456___李明_________男___10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_52' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_8___新增卖家_姓名为1个字符____aaa5___123456___A_________男___10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_53' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_4seller_9___新增卖家_姓名为8个字符____aaa6___123456___李明_________男___10086100861_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_54' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_1</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_55' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_10</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_56' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_11</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_57' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_12</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_58' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_13</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_59' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_14</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_60' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_15</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_61' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_16</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_62' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_2</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_63' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_3</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_64' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_4</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_65' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_5</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_66' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_6</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_67' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_7</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_68' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_8</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_69' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_5e_bike_9</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_70' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_6buy_1___查看订单详情_选择具体的订单__________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_71' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_6buy_2___删除订单_选择具体的订单__________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_72' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_6buy_3___查询订单_输入商品名称为电动车____电动车______</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_73' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_6buy_4___查询订单_输入卖家账号为abc________abc__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_74' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_7evaluate_1</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_75' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_7evaluate_10</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_76' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_7evaluate_11</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_77' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_7evaluate_12</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_78' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_7evaluate_13</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_79' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_7evaluate_2</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_80' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_7evaluate_3</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_81' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_7evaluate_4</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_82' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_7evaluate_5</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_83' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_7evaluate_6</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_84' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_7evaluate_7</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_85' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_7evaluate_8</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_86' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_7evaluate_9</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_87' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_8evaluate_1___查看留言板详情_选择具_n体留言__________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_88' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_8evaluate_2___回复留言_感谢____感谢______</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_89' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_8evaluate_3___修改留言的回复内容_谢谢留言____谢谢留言______</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_90' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_8evaluate_4___删除留言_选择具体的留言__________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_91' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_8evaluate_5___查询留言_输入的用户名为2_______2_</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_92' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_10___新增系统公告_内容字符为1____这是一条一条标题_________这是简介这是简介这是简介____A__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_93' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_11___新增系统公告_内容字符为16____这是一条一条标题_________这是简介这是简介这是简介____具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_94' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_12___新增系统公告_内容字符为192____这是一条一条标题_________这是简介这是简介这是简介这是简介这是简介这是简介____具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_95' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_13___新增系统公告_内容字符为384____这是一条一条标题_________这是简介这是简介这是简介这是简介这是简介这是简介____具体内容具体内容具体内容具体_n内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_96' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_14___修改系统公告_修改标题____修改标题_________这是简介这是简介这是简介____具体内容具体内容具体内容_n具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_97' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_15___修改系统公告_修改图片____修改标题_________这是简介这是简介这是简介____具体内容具体内容具体内容_n具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_98' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_16___修改系统公告_修改简介____修改标题_________修改简介____具体内容具体内容具体内容_n具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_99' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_17___修改系统公告_修改内容____修改标题_________修改简介____修改内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_100' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_18___查看详情_选择具体公告__________________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_101' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_19___删除公告_选择具体公告__________________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_102' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_1___新增系统公告_简介为空____这是一条标题_____________具体内容具体内容具体内容_n具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_103' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_2___新增系统公告_标题字符为1____A_________这是简介____具体内容具体内容具体内容_n具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_104' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_3___新增系统公告_标题字符为16____这是标题_________这是简介____具体内容具体内容具体内容_n具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_105' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_4___新增系统公告_标题字符为32____这是一条一条标题_________这是简介____具体内容具体内容具体内容_n具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_106' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_5___新增系统公告_标题字符为96____这是一条标题这是一条标题这是一_n条标题这是一条标题这是一条标题这是一条标题_________这是简介____具体内容具体内容具体内容_n具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_107' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_6___新增系统公告_简介字符为1____这是一条一条标题_________A____具体内容具体内容具体内容_n具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_108' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_7___新增系统公告_简介字符为16____这是一条一条标题_________这是简介____具体内容具体内容具体内容_n具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_109' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_8___新增系统公告_简介字符为96____这是一条一条标题_________这是简介这是简介这是简介这是简介这是简介这是简介____具体内容具体内容具体内容_n具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_110' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9notice_9___新增系统公告_简介字符为192____这是一条一条标题_________这是简介这是简_n介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介____具体内容具体内容具体内容_n具体内容__</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_111' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9slideshow_1___新增轮播图_图片为空____轮播图______</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_112' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9slideshow_2___查看轮播图详情_选择具_n体的轮播图__________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_113' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9slideshow_3___修改轮播图_修改名称____新的轮播图_______</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_114' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9slideshow_4___修改轮播图_更换图片____新的轮播图_______</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_115' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9slideshow_5___删除轮播图_选择具体的轮播图__________</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='pt3_116' class='hiddenRow'>
+    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_admin_9slideshow_6___查询轮播图_输入名称为picture____picture______</div></td>
+    <td style="vertical-align: left"></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase' style="vertical-align: middle"></td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td colspan='2'>总计</td>
+    <td>224</td>
+    <td>224</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1910.86秒</td>
+    <td>通过率：100.00%</td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div id="toTop" style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer; display: none">
+    <a><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+</body>
+</html>

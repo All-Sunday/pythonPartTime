@@ -10,13 +10,13 @@ from openpyxl.chart import Reference, LineChart
 
 if __name__ == '__main__':
     file = r'file\z-c6.1(1).xlsx'
-
-    df = pd.read_excel(file)
+    start = int(input('输入excel开始的行号：'))
+    end = int(input('输入excel结束的行号：'))
+    df = pd.read_excel(file)[start-2:end-1].copy()
     target_columns = ['EMG1.v, uV', 'EMG2.v, uV', 'EMG3.v, uV', 'EMG4.v, uV', 'EMG5.v, uV', 'EMG6.v, uV', 'EMG7.v, uV',
                       'EMG8.v, uV']
     EMG1, EMG2, EMG3, EMG4, EMG5, EMG6, EMG7, EMG8 = 0, 0, 0, 0, 0, 0, 0, 0
     EMGs = [EMG1, EMG2, EMG3, EMG4, EMG5, EMG6, EMG7, EMG8]
-
 
     for row in df.itertuples():
         for i in range(2, 10):
@@ -54,6 +54,3 @@ if __name__ == '__main__':
         ws.add_chart(chart, "M" + str((i + 1) * 10))
 
     wb.save(file[:-5] + 'res.xlsx')
-
-
-
