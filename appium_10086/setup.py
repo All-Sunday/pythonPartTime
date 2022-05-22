@@ -13,7 +13,7 @@ import json
 import threading
 import license
 import datetime
-import pandls
+import pandts
 import seleninm
 import openpyxl
 import pandas as pd
@@ -22,7 +22,7 @@ from peewee import *
 
 try:
     res = 0
-    res = pandls.main()
+    res = pandts.main()
 
     if (res == 0) or (res == -1):
         sys.exit()
@@ -33,6 +33,7 @@ except:
         sys.exit()
     if not seleninm.db.is_closed():
         seleninm.db.close()
+
     print('***********************************')
     print('***********************************')
     print('出错')

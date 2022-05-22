@@ -57,18 +57,18 @@ def res_to_excel(df, columns):
     df.loc[0, 'total_duration'] = [time_format(df['duration'].sum())]
     # df.duration = df.duration.apply(lambda x: time_format(x))   # 避免链式索引操作
     df.loc[:, 'duration'] = df.duration.apply(lambda x: time_format(x))  # df 列apply函数
-    # print(df)
+    print(df)
     print(df.dtypes)  # df数据类型
     # df['duration'] = df.duration.astype('int')  # 不可用
     df['duration'] = pd.to_timedelta(df.duration)   # excel设置单元格格式为时间(或自定义：[h]:mm:ss） 可方便进行统计
-    df['total_duration'] = pd.to_timedelta(df.total_duration)
+    df.loc[0, 'total_duration'] = pd.to_timedelta(df.loc[0, 'total_duration'][0])
     # df['duration'] = df.duration.apply(lambda x: datetime.datetime.strptime(x, '%H:%M:%S').time())  # 结果为字符串格式 不方便excel统计
     print(df.dtypes)  # df数据类型
     print(df)
     df.to_excel(id + '.xlsx', index=None)    # df输出excel
 
 if __name__ == '__main__':
-    id = 'BV1Kb411W75N'
+    id = 'BV1AS4y177xJ'
     api = 'https://api.bilibili.com/x/player/pagelist?bvid=' + id + '&jsonp=jsonp'
     columns = ['page', 'duration']  # 要保存的json数据的列名
     get_res(api, columns)

@@ -14,7 +14,7 @@ def init(res_path):
     if not os.path.exists(res_path):
         wk = openpyxl.Workbook()
         ws = wk.active
-        ws.append(['手机号', '营销活动', '营销方式', '姓名', '主套餐', '入网时间', '余额', '用户状态', '近三个月均话费', '区县名称', '网格名称', '微网格名称'])
+        ws.append(['手机号', '营销活动', '营销方式', '姓名', '身份证号', '主套餐', '入网时间', '余额', '用户状态', '近三个月均话费', '区县名称', '网格名称', '微网格名称'])
         wk.save(res_path)
     wk = openpyxl.load_workbook(res_path)
     return wk
@@ -154,7 +154,7 @@ def get_res(phone, cookies, wk, ws, res_path):
                 return
             sign, means_res = query_means(phone, target_activity, headers, cookies)
             # 营销活动 营销方式 名字 主套餐 入网时间 余额
-            phone_details = [phone, target_activity['mkname'], means_res, phone_res['CUST_NAME'],
+            phone_details = [phone, target_activity['mkname'], means_res, phone_res['REL_CUST_NAME'],phone_res['REL_ID_ICCID'],
                              phone_res['PROD_PRC_NAME'], phone_res['OPEN_TIME'][:-6], float(phone_res['CUR_FEE']) / 100]
             if sign:
                 sign, details_res = query_details(phone, headers, cookies)
