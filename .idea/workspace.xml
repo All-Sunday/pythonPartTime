@@ -4,204 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e953f83-15df-4183-90ad-21a4ffa564fb" name="Changes" comment="20220419">
-      <change afterPath="$PROJECT_DIR$/appium_10086/build/temp.win-amd64-3.9/Release/license.cp39-win_amd64.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/build/temp.win-amd64-3.9/Release/license.cp39-win_amd64.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/build/temp.win-amd64-3.9/Release/license.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/build/temp.win-amd64-3.9/Release/pandts.cp39-win_amd64.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/build/temp.win-amd64-3.9/Release/pandts.cp39-win_amd64.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/build/temp.win-amd64-3.9/Release/pandts.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/build/temp.win-amd64-3.9/Release/seleninm.cp39-win_amd64.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/build/temp.win-amd64-3.9/Release/seleninm.cp39-win_amd64.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/build/temp.win-amd64-3.9/Release/seleninm.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/dist/10086_me.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/dist/10086_old.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/dist/新建 XLS 工作表 (2).xls" afterDir="false" />
+    <list default="true" id="3e953f83-15df-4183-90ad-21a4ffa564fb" name="Changes" comment="20220522">
       <change afterPath="$PROJECT_DIR$/appium_10086/dist/新建 XLS 工作表 (2)20220427 17-53-31.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/pandts.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/pandts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/pandts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/pandts.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/pandts0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread_test/res.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread_test/test20220427 12-52-16.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread_test/test20220427 13-27-02.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread_test/thread_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表 (2) - 副本.xls" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表 (2)20220426 18-51-27.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表 (2)20220427 17-21-51.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表(1)20220427 14-00-18.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表(1)20220427 14-06-37.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表.xls" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表20220426 21-11-53.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表20220427 14-12-35.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表20220427 14-15-33.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/新建文件夹/10086.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/新建文件夹/1271b6ce4ebf00f17231631df3a506d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/新建文件夹/1650288539(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/新建文件夹/1651053513(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/新建文件夹/4d1abf66d361779cdb4c6b0704cb699.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/新建文件夹/ca386042ebb91ecb00b86db63aa5172.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/新建文件夹/d475451239dc743800a665aac6194ad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibili/尚硅谷丨2022版JavaWeb教程(全新技术栈,全程实战)BV1AS4y177xJ.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/springboot16r3y/09FD7C30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hoopshype_com/requestso.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hoopshype_com/res.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nba_com/requests_openpyxl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nba_com/requests_openpyxl0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nba_com/res.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_07/PY_07_04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_07/PY_07_05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_07/py_07_04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_07/py_07_05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_07/py_07_05_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_08/8_5_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_08/8_5_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_08/8_6_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_08/8_6_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_08/PY_08_05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_08/PY_08_05_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_08/PY_08_05_Words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_08/PY_08_06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_08/PY_08_06_Scores.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_11/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_11/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_11/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_11/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_11/PY_11.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_11/PY_11_04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_11/PY_11_05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_11/PY_11_05_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_11/PY_11_06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_11/PY_11_07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_11/PY_11_07_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0328_homework/0421.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0328_homework/0426/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0328_homework/0426/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0328_homework/0426/mymath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0328_homework/0426/mymath2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0328_homework/0428/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0328_homework/0428/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0328_homework/0428/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0328_homework/0428/5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0328_homework/0428/6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0328_homework/0428/7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0328_homework/0428/area.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0328_homework/0428/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0409_homework.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0423/1-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0423/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0423/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0423/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0423/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0423/5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0423/6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0423/7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/1_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/3_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/JJ.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/NewJJ.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/T1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/T2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/hlm.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/合并.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/合并前1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/合并前2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/学生成绩文件.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/246_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/246_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/246_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/2、4、6_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/2、4、6_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/3-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/6_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0516/6_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0503_homework/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0514_homework/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0514_homework/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0514_homework/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0514_homework/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0514_homework/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0514_homework/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0514_homework/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0514_homework/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0514_homework/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0514_homework/5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0514_homework/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0514_homework/6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/buy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/buy0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/code.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/fake_useragent.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup_last.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql/peewee.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql/t/dist/pytransform.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql/t/dist/thresd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql/t/thresd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql/thresd0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/thresd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/商品列表.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/商品列表0.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/cookie.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/fake_useragent.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/mail_163.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/setup0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/setup1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/setup_c.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/setup_c0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor/dist/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor/dist/test1_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor1/dist/pytransform.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor1/dist/test1_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor1/dist/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor1/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/商品列表.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/商品列表0.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/商品列表1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/商品列表_id.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/city.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/fake_useragent.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/industry.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/qcc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/qcc_selenium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/qcc_selenium_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/qcc_selenium_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/qcc_selenium_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/res.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/res2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/创业数据2021 - 副本.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/创业数据2021.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/创业数据2021_完整版.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/新建文件夹/res.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/新建文件夹/res2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/新建文件夹/res3.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qcc_com_2/新建文件夹/res_last.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_09/3_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_09/3_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_09/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_09/PY_09_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy_0323_homework/PY_09/PY_09_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy_0409_homework/同济大学Python程序设计（下）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy_0503_homework/0525/1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/build/setup/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/build/setup/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/build/setup/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/build/setup/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/build/setup/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/build/setup/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/build/setup/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/build/setup/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/build/setup/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/build/setup/PYZ-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/build/setup/setup.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/build/setup/setup.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/build/setup/warn-setup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/build/setup/warn-setup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/build/setup/xref-setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/build/setup/xref-setup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/build/temp.win-amd64-3.9/Release/pandls.obj" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/build/temp.win-amd64-3.9/Release/pandls.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/dist/10086.exe" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/dist/10086.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/license.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/license.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/pandls.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/pandls.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/pandls.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/pandls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/pandls.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/pandls0.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/pandls0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/pandos.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/pandos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/pandos0.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/pandos0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/pandos00.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/pandos00.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/seleninm.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/seleninm.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_10086/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表 (2)20220417 22-46-38.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表 (2)20220417 23-13-22.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表 (2)20220417 23-21-39.xlsx" beforeDir="false" />
@@ -212,6 +46,9 @@
       <change beforePath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表(1)20220417 15-23-10.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/appium_10086/新建 XLS 工作表(1)20220417 16-17-13.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bilibili/bilibili_duration.py" beforeDir="false" afterPath="$PROJECT_DIR$/bilibili/bilibili_duration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/T2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/T2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/buy.py" beforeDir="false" afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/buy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/buy0.py" beforeDir="false" afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/buy0.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,6 +97,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="23MuxQjOeQJDsZ0zg0P3cLz4juZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -269,25 +109,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xy_0323_homework/PY_08" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/code_workplace/python/2022/january/qcc_com_2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code_workplace\python\2022\january\qcc_com_2" />
+      <recent name="E:\code_workplace\python\2022\january\xy_0323_homework\PY_09" />
       <recent name="E:\code_workplace\python\2022\january\xy_0323_homework\PY_08" />
       <recent name="E:\code_workplace\python\2022\january\youpin898_com_buff_163_com\2.0" />
       <recent name="E:\code_workplace\python\2022\january\xy_0409_homework\0516同济大学Python程序设计基础 实验" />
-      <recent name="E:\code_workplace\python\2022\january\xy_0409_homework\0516" />
-      <recent name="E:\code_workplace\python\2022\january\xy_0503_homework\0516" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\code_workplace\python\2022\january" />
@@ -297,8 +135,8 @@
       <recent name="E:\code_workplace\python\2022\january\youpin898_com_buff_163_com\test_pyarmor" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PY_08_05">
-    <configuration name="3_0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.qcc_selenium_2">
+    <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="january" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,7 +149,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/3_0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="qcc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="january" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,12 +166,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qcc_com_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qcc_com_2/qcc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="qcc_selenium" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="january" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,12 +188,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qcc_com_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验/5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qcc_com_2/qcc_selenium.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -364,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PY_08_05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="qcc_selenium_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="january" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -372,12 +210,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xy_0323_homework/PY_08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qcc_com_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xy_0323_homework/PY_08/PY_08_05.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qcc_com_2/qcc_selenium_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -386,7 +224,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PY_08_06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="qcc_selenium_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="january" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -394,12 +232,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xy_0323_homework/PY_08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qcc_com_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xy_0323_homework/PY_08/PY_08_06.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qcc_com_2/qcc_selenium_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -410,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PY_08_05" />
-        <item itemvalue="Python.PY_08_06" />
-        <item itemvalue="Python.5" />
-        <item itemvalue="Python.4" />
-        <item itemvalue="Python.3_0" />
+        <item itemvalue="Python.qcc_selenium_2" />
+        <item itemvalue="Python.qcc_selenium" />
+        <item itemvalue="Python.qcc_selenium_3" />
+        <item itemvalue="Python.qcc" />
+        <item itemvalue="Python.1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -496,6 +334,13 @@
       <workItem from="1653011268739" duration="5503000" />
       <workItem from="1653020109075" duration="23000" />
       <workItem from="1653043517987" duration="1311000" />
+      <workItem from="1653189133064" duration="156000" />
+      <workItem from="1653209007471" duration="1222000" />
+      <workItem from="1653455857336" duration="5233000" />
+      <workItem from="1653542692329" duration="686000" />
+      <workItem from="1653568381140" duration="2539000" />
+      <workItem from="1654066194625" duration="695000" />
+      <workItem from="1654420278337" duration="42043000" />
     </task>
     <task id="LOCAL-00001" summary="两台电脑跑 暂时告一段落 网页跳转回主页还未修改">
       <created>1642421424773</created>
@@ -588,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650359678339</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="20220522">
+      <created>1653189233939</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653189233939</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,7 +469,8 @@
     <MESSAGE value="20220323" />
     <MESSAGE value="20220325" />
     <MESSAGE value="20220419" />
-    <option name="LAST_COMMIT_MESSAGE" value="20220419" />
+    <MESSAGE value="20220522" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220522" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1054,7 +907,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/buy0.py</url>
-          <line>402</line>
+          <line>406</line>
           <option name="timeStamp" value="168" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1069,7 +922,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/buy0.py</url>
-          <line>214</line>
+          <line>218</line>
           <option name="timeStamp" value="175" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1082,6 +935,41 @@
           <line>166</line>
           <option name="timeStamp" value="184" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qcc_com_2/qcc.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qcc_com_2/qcc_selenium.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qcc_com_2/qcc_selenium.py</url>
+          <line>189</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qcc_com_2/qcc_selenium.py</url>
+          <line>190</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qcc_com_2/qcc_selenium_2.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qcc_com_2/qcc_selenium_3.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qcc_com_2/qcc_selenium_4.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1091,115 +979,121 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/january$excel_processor.coverage" NAME="excel_processor Coverage Results" MODIFIED="1642607629552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
-    <SUITE FILE_PATH="coverage/january$PY_03_09.coverage" NAME="PY_03_09 Coverage Results" MODIFIED="1648043397507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
-    <SUITE FILE_PATH="coverage/january$4.coverage" NAME="4 Coverage Results" MODIFIED="1652778777569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
-    <SUITE FILE_PATH="coverage/january$test1_setup__1_.coverage" NAME="test1_setup (1) Coverage Results" MODIFIED="1652336440933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor/dist" />
-    <SUITE FILE_PATH="coverage/january$test_proxy.coverage" NAME="test_proxy Coverage Results" MODIFIED="1642562348057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
-    <SUITE FILE_PATH="coverage/january$selenium_pandas_exe.coverage" NAME="selenium_pandas_exe Coverage Results" MODIFIED="1642662359043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
-    <SUITE FILE_PATH="coverage/january$requestsp0.coverage" NAME="requestsp0 Coverage Results" MODIFIED="1650011724415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gtgqw_com" />
-    <SUITE FILE_PATH="coverage/january$246_6.coverage" NAME="246_6 Coverage Results" MODIFIED="1652703468548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0503_homework/0516" />
-    <SUITE FILE_PATH="coverage/january$9_0.coverage" NAME="9_0 Coverage Results" MODIFIED="1649563107661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework" />
-    <SUITE FILE_PATH="coverage/january$openpyll.coverage" NAME="openpyll Coverage Results" MODIFIED="1648024637967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
     <SUITE FILE_PATH="coverage/january$license.coverage" NAME="license Coverage Results" MODIFIED="1650262476555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_10086" />
-    <SUITE FILE_PATH="coverage/january$2__1_.coverage" NAME="2 (1) Coverage Results" MODIFIED="1651136992642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0328_homework/0428" />
+    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9222.coverage" NAME="selenium_openpyxl_9222 Coverage Results" MODIFIED="1642605080395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1652524549788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql" />
+    <SUITE FILE_PATH="coverage/january$qcc_selenium_2.coverage" NAME="qcc_selenium_2 Coverage Results" MODIFIED="1654527613895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_com_2" />
+    <SUITE FILE_PATH="coverage/january$openpyll.coverage" NAME="openpyll Coverage Results" MODIFIED="1648024637967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
+    <SUITE FILE_PATH="coverage/january$four_point_angle.coverage" NAME="four_point_angle Coverage Results" MODIFIED="1648197295913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_angle" />
+    <SUITE FILE_PATH="coverage/january$PY_09_03.coverage" NAME="PY_09_03 Coverage Results" MODIFIED="1653570547084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_09" />
+    <SUITE FILE_PATH="coverage/january$people_com_selenium_pandas__1_.coverage" NAME="people_com_selenium_pandas (1) Coverage Results" MODIFIED="1642391331326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$buy.coverage" NAME="buy Coverage Results" MODIFIED="1652772624836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0" />
     <SUITE FILE_PATH="coverage/january$PY_04_09.coverage" NAME="PY_04_09 Coverage Results" MODIFIED="1648140868696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_04" />
-    <SUITE FILE_PATH="coverage/january$PY_11_07.coverage" NAME="PY_11_07 Coverage Results" MODIFIED="1652372834895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_11" />
-    <SUITE FILE_PATH="coverage/january$Project01.coverage" NAME="Project01 Coverage Results" MODIFIED="1649603017397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/poke" />
-    <SUITE FILE_PATH="coverage/january$3_0.coverage" NAME="3_0 Coverage Results" MODIFIED="1652774370488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
-    <SUITE FILE_PATH="coverage/january$test1_setup__2_.coverage" NAME="test1_setup (2) Coverage Results" MODIFIED="1652336761746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor1/dist" />
-    <SUITE FILE_PATH="coverage/january$Worklist_update8.coverage" NAME="Worklist update8 Coverage Results" MODIFIED="1648194824186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
+    <SUITE FILE_PATH="coverage/january$thread_test__1_.coverage" NAME="thread_test (1) Coverage Results" MODIFIED="1651037221149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_10086/thread_test" />
+    <SUITE FILE_PATH="coverage/january$requestso__1_.coverage" NAME="requestso (1) Coverage Results" MODIFIED="1650896181292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoopshype_com" />
+    <SUITE FILE_PATH="coverage/january$commodity__1_.coverage" NAME="commodity (1) Coverage Results" MODIFIED="1643086139548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
+    <SUITE FILE_PATH="coverage/january$test1_setup__1_.coverage" NAME="test1_setup (1) Coverage Results" MODIFIED="1652336440933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor/dist" />
+    <SUITE FILE_PATH="coverage/january$buy0.coverage" NAME="buy0 Coverage Results" MODIFIED="1652714857299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0" />
+    <SUITE FILE_PATH="coverage/january$PY_05_04.coverage" NAME="PY_05_04 Coverage Results" MODIFIED="1649941263085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_05" />
+    <SUITE FILE_PATH="coverage/january$PY_07_04.coverage" NAME="PY_07_04 Coverage Results" MODIFIED="1651157052651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_07" />
+    <SUITE FILE_PATH="coverage/january$pdf_processor0.coverage" NAME="pdf_processor0 Coverage Results" MODIFIED="1649602298390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
+    <SUITE FILE_PATH="coverage/january$pandos.coverage" NAME="pandos Coverage Results" MODIFIED="1650042502282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gtgqw_com" />
+    <SUITE FILE_PATH="coverage/january$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1649683504814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
+    <SUITE FILE_PATH="coverage/january$PY_03_09.coverage" NAME="PY_03_09 Coverage Results" MODIFIED="1648043397507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
+    <SUITE FILE_PATH="coverage/january$test_proxy.coverage" NAME="test_proxy Coverage Results" MODIFIED="1642562348057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$pandos0.coverage" NAME="pandos0 Coverage Results" MODIFIED="1650167128939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_10086" />
+    <SUITE FILE_PATH="coverage/january$pdf_processor.coverage" NAME="pdf_processor Coverage Results" MODIFIED="1649659804129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
+    <SUITE FILE_PATH="coverage/january$requests_openpyxl.coverage" NAME="requests_openpyxl Coverage Results" MODIFIED="1650751488370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nba_com" />
+    <SUITE FILE_PATH="coverage/january$test_setup.coverage" NAME="test_setup Coverage Results" MODIFIED="1652332017716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor" />
+    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9223.coverage" NAME="selenium_openpyxl_9223 Coverage Results" MODIFIED="1642590656220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$copy_sheets.coverage" NAME="copy_sheets Coverage Results" MODIFIED="1647926689275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
     <SUITE FILE_PATH="coverage/january$PY_03_08.coverage" NAME="PY_03_08 Coverage Results" MODIFIED="1648043437062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
     <SUITE FILE_PATH="coverage/january$PY_04_08.coverage" NAME="PY_04_08 Coverage Results" MODIFIED="1648140165093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_04" />
-    <SUITE FILE_PATH="coverage/january$thread_test__1_.coverage" NAME="thread_test (1) Coverage Results" MODIFIED="1651037221149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_10086/thread_test" />
-    <SUITE FILE_PATH="coverage/january$pandos.coverage" NAME="pandos Coverage Results" MODIFIED="1650042502282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gtgqw_com" />
-    <SUITE FILE_PATH="coverage/january$test.coverage" NAME="test Coverage Results" MODIFIED="1652530237123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql" />
-    <SUITE FILE_PATH="coverage/january$pandos__1_.coverage" NAME="pandos (1) Coverage Results" MODIFIED="1650163995221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_10086" />
-    <SUITE FILE_PATH="coverage/january$setup.coverage" NAME="setup Coverage Results" MODIFIED="1652714117244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0" />
-    <SUITE FILE_PATH="coverage/january$people_com_selenium_pandas__1_.coverage" NAME="people_com_selenium_pandas (1) Coverage Results" MODIFIED="1642391331326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
-    <SUITE FILE_PATH="coverage/january$0407.coverage" NAME="0407 Coverage Results" MODIFIED="1649325365595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0328_homework/3.7.0" />
-    <SUITE FILE_PATH="coverage/january$selenium_pandas.coverage" NAME="selenium_pandas Coverage Results" MODIFIED="1642651249898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
-    <SUITE FILE_PATH="coverage/january$requests_openpyxl.coverage" NAME="requests_openpyxl Coverage Results" MODIFIED="1650751488370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nba_com" />
-    <SUITE FILE_PATH="coverage/january$PY_11_06.coverage" NAME="PY_11_06 Coverage Results" MODIFIED="1652372222305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_11" />
-    <SUITE FILE_PATH="coverage/january$pandos0.coverage" NAME="pandos0 Coverage Results" MODIFIED="1650167128939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_10086" />
-    <SUITE FILE_PATH="coverage/january$test_setup.coverage" NAME="test_setup Coverage Results" MODIFIED="1652332017716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor" />
-    <SUITE FILE_PATH="coverage/january$test_setup__1_.coverage" NAME="test_setup (1) Coverage Results" MODIFIED="1652335573215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor/dist" />
-    <SUITE FILE_PATH="coverage/january$pdf_processor__1_.coverage" NAME="pdf_processor (1) Coverage Results" MODIFIED="1649655691368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
-    <SUITE FILE_PATH="coverage/january$2.coverage" NAME="2 Coverage Results" MODIFIED="1652768360136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
-    <SUITE FILE_PATH="coverage/january$commodity__1_.coverage" NAME="commodity (1) Coverage Results" MODIFIED="1643086139548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
-    <SUITE FILE_PATH="coverage/january$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1652761106862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
-    <SUITE FILE_PATH="coverage/january$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1651853193058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0503_homework" />
-    <SUITE FILE_PATH="coverage/january$people_com_selenium_pandas.coverage" NAME="people_com_selenium_pandas Coverage Results" MODIFIED="1641741289493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/peopel_com" />
-    <SUITE FILE_PATH="coverage/january$copy_sheets.coverage" NAME="copy_sheets Coverage Results" MODIFIED="1647926689275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
-    <SUITE FILE_PATH="coverage/january$PY_11_04.coverage" NAME="PY_11_04 Coverage Results" MODIFIED="1652369873271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_11" />
-    <SUITE FILE_PATH="coverage/january$Worklist_update7.coverage" NAME="Worklist update7 Coverage Results" MODIFIED="1647492125661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
-    <SUITE FILE_PATH="coverage/january$PY_07_05.coverage" NAME="PY_07_05 Coverage Results" MODIFIED="1651159664054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_07" />
-    <SUITE FILE_PATH="coverage/january$PY_08_05.coverage" NAME="PY_08_05 Coverage Results" MODIFIED="1653015707902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_08" />
-    <SUITE FILE_PATH="coverage/january$run_case0.coverage" NAME="run_case0 Coverage Results" MODIFIED="1649570821897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springboot16r3y" />
-    <SUITE FILE_PATH="coverage/january$pdf_processor0.coverage" NAME="pdf_processor0 Coverage Results" MODIFIED="1649602298390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
-    <SUITE FILE_PATH="coverage/january$PY_04_05.coverage" NAME="PY_04_05 Coverage Results" MODIFIED="1648138012521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_04" />
-    <SUITE FILE_PATH="coverage/january$thread_test.coverage" NAME="thread_test Coverage Results" MODIFIED="1650961007089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_10086" />
-    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9224.coverage" NAME="selenium_openpyxl_9224 Coverage Results" MODIFIED="1642407813277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
-    <SUITE FILE_PATH="coverage/january$PY_03_05.coverage" NAME="PY_03_05 Coverage Results" MODIFIED="1648082809681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
-    <SUITE FILE_PATH="coverage/january$10.coverage" NAME="10 Coverage Results" MODIFIED="1649566686822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework" />
-    <SUITE FILE_PATH="coverage/january$requests.coverage" NAME="requests Coverage Results" MODIFIED="1651986276922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com" />
-    <SUITE FILE_PATH="coverage/january$selenium_openpyxl.coverage" NAME="selenium_openpyxl Coverage Results" MODIFIED="1644495338382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vip_cric_com" />
-    <SUITE FILE_PATH="coverage/january$9.coverage" NAME="9 Coverage Results" MODIFIED="1649564617994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework" />
-    <SUITE FILE_PATH="coverage/january$PY_05_05.coverage" NAME="PY_05_05 Coverage Results" MODIFIED="1649941218912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_05" />
-    <SUITE FILE_PATH="coverage/january$Worklist_update.coverage" NAME="Worklist update Coverage Results" MODIFIED="1646289363788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
-    <SUITE FILE_PATH="coverage/january$requestsp.coverage" NAME="requestsp Coverage Results" MODIFIED="1650892547902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoopshype_com" />
-    <SUITE FILE_PATH="coverage/january$buy0.coverage" NAME="buy0 Coverage Results" MODIFIED="1652714857299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0" />
-    <SUITE FILE_PATH="coverage/january$PY_04_06.coverage" NAME="PY_04_06 Coverage Results" MODIFIED="1648137665522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_04" />
     <SUITE FILE_PATH="coverage/january$Project01__1_.coverage" NAME="Project01 (1) Coverage Results" MODIFIED="1649671220083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/poker" />
-    <SUITE FILE_PATH="coverage/january$buy.coverage" NAME="buy Coverage Results" MODIFIED="1652772624836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0" />
-    <SUITE FILE_PATH="coverage/january$PY_08_06.coverage" NAME="PY_08_06 Coverage Results" MODIFIED="1652962778253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_08" />
-    <SUITE FILE_PATH="coverage/january$PY_11_05.coverage" NAME="PY_11_05 Coverage Results" MODIFIED="1652371258647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_11" />
-    <SUITE FILE_PATH="coverage/january$7.coverage" NAME="7 Coverage Results" MODIFIED="1651138222314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0328_homework/0428" />
-    <SUITE FILE_PATH="coverage/january$.coverage" NAME=" Coverage Results" MODIFIED="1649481867541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springboot16r3y" />
-    <SUITE FILE_PATH="coverage/january$ddt_test_start.coverage" NAME="ddt_test_start Coverage Results" MODIFIED="1649168640564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springboot16r3y" />
-    <SUITE FILE_PATH="coverage/january$seleniump.coverage" NAME="seleniump Coverage Results" MODIFIED="1642747514542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com/price" />
-    <SUITE FILE_PATH="coverage/january$test1_setup.coverage" NAME="test1_setup Coverage Results" MODIFIED="1652335655881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor/dist/pytransform" />
-    <SUITE FILE_PATH="coverage/january$0412.coverage" NAME="0412 Coverage Results" MODIFIED="1649748634499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0328_homework" />
-    <SUITE FILE_PATH="coverage/january$PY_03_06.coverage" NAME="PY_03_06 Coverage Results" MODIFIED="1648176219263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
-    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9222.coverage" NAME="selenium_openpyxl_9222 Coverage Results" MODIFIED="1642605080395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
-    <SUITE FILE_PATH="coverage/january$PY_03_07.coverage" NAME="PY_03_07 Coverage Results" MODIFIED="1648043474423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
-    <SUITE FILE_PATH="coverage/january$thresd.coverage" NAME="thresd Coverage Results" MODIFIED="1652670529559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql/t" />
-    <SUITE FILE_PATH="coverage/january$PY_04_07.coverage" NAME="PY_04_07 Coverage Results" MODIFIED="1648141152413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_04" />
-    <SUITE FILE_PATH="coverage/january$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1652524549788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql" />
-    <SUITE FILE_PATH="coverage/january$246_2.coverage" NAME="246_2 Coverage Results" MODIFIED="1652703430442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0503_homework/0516" />
-    <SUITE FILE_PATH="coverage/january$setup_c.coverage" NAME="setup_c Coverage Results" MODIFIED="1652235796415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com" />
-    <SUITE FILE_PATH="coverage/january$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1649683504814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_delivery" />
-    <SUITE FILE_PATH="coverage/january$null_processor.coverage" NAME="null_processor Coverage Results" MODIFIED="1649854950675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
-    <SUITE FILE_PATH="coverage/january$6.coverage" NAME="6 Coverage Results" MODIFIED="1652691023903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0503_homework/0516" />
-    <SUITE FILE_PATH="coverage/january$request_cookie.coverage" NAME="request_cookie Coverage Results" MODIFIED="1650105471771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_10086" />
-    <SUITE FILE_PATH="coverage/january$1.coverage" NAME="1 Coverage Results" MODIFIED="1652760601822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework/0516" />
-    <SUITE FILE_PATH="coverage/january$pandas_processor.coverage" NAME="pandas_processor Coverage Results" MODIFIED="1646285648260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
-    <SUITE FILE_PATH="coverage/january$line_chart.coverage" NAME="line_chart Coverage Results" MODIFIED="1648221700785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_angle" />
+    <SUITE FILE_PATH="coverage/january$pandos__1_.coverage" NAME="pandos (1) Coverage Results" MODIFIED="1650163995221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_10086" />
+    <SUITE FILE_PATH="coverage/january$qcc.coverage" NAME="qcc Coverage Results" MODIFIED="1654490134845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_com_2" />
+    <SUITE FILE_PATH="coverage/january$thread_test.coverage" NAME="thread_test Coverage Results" MODIFIED="1650961007089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_10086" />
     <SUITE FILE_PATH="coverage/january$seleninm.coverage" NAME="seleninm Coverage Results" MODIFIED="1650278947837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_10086" />
-    <SUITE FILE_PATH="coverage/january$seleniumc__1_.coverage" NAME="seleniumc (1) Coverage Results" MODIFIED="1643085985007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
-    <SUITE FILE_PATH="coverage/january$thresd__1_.coverage" NAME="thresd (1) Coverage Results" MODIFIED="1652524258793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql" />
-    <SUITE FILE_PATH="coverage/january$setup__1_.coverage" NAME="setup (1) Coverage Results" MODIFIED="1652009215265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com" />
-    <SUITE FILE_PATH="coverage/january$four_point_angle.coverage" NAME="four_point_angle Coverage Results" MODIFIED="1648197295913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_angle" />
-    <SUITE FILE_PATH="coverage/january$start.coverage" NAME="start Coverage Results" MODIFIED="1649142799086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springboot16r3y" />
-    <SUITE FILE_PATH="coverage/january$pandas_drop.coverage" NAME="pandas_drop Coverage Results" MODIFIED="1643262415864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tsv_pandas_drop" />
+    <SUITE FILE_PATH="coverage/january$test_setup__1_.coverage" NAME="test_setup (1) Coverage Results" MODIFIED="1652335573215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor/dist" />
+    <SUITE FILE_PATH="coverage/january$5.coverage" NAME="5 Coverage Results" MODIFIED="1652779290257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
+    <SUITE FILE_PATH="coverage/january$bilibili_duration.coverage" NAME="bilibili_duration Coverage Results" MODIFIED="1653189271815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibili" />
     <SUITE FILE_PATH="coverage/january$8.coverage" NAME="8 Coverage Results" MODIFIED="1649562678517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework" />
     <SUITE FILE_PATH="coverage/january$run_case.coverage" NAME="run_case Coverage Results" MODIFIED="1649561667955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springboot16r3y" />
-    <SUITE FILE_PATH="coverage/january$PY_05_04.coverage" NAME="PY_05_04 Coverage Results" MODIFIED="1649941263085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_05" />
-    <SUITE FILE_PATH="coverage/january$requestso__1_.coverage" NAME="requestso (1) Coverage Results" MODIFIED="1650896181292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoopshype_com" />
-    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9223.coverage" NAME="selenium_openpyxl_9223 Coverage Results" MODIFIED="1642590656220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
-    <SUITE FILE_PATH="coverage/january$5.coverage" NAME="5 Coverage Results" MODIFIED="1652779290257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
-    <SUITE FILE_PATH="coverage/january$PY_07_04.coverage" NAME="PY_07_04 Coverage Results" MODIFIED="1651157052651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_07" />
-    <SUITE FILE_PATH="coverage/january$people_com.coverage" NAME="people_com Coverage Results" MODIFIED="1641724133338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/january$bilibili_duration.coverage" NAME="bilibili_duration Coverage Results" MODIFIED="1650794460312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibili" />
-    <SUITE FILE_PATH="coverage/january$0421.coverage" NAME="0421 Coverage Results" MODIFIED="1650535757208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0328_homework" />
-    <SUITE FILE_PATH="coverage/january$3.coverage" NAME="3 Coverage Results" MODIFIED="1652773240874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
-    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9225.coverage" NAME="selenium_openpyxl_9225 Coverage Results" MODIFIED="1642407112181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
-    <SUITE FILE_PATH="coverage/january$pdf_processor.coverage" NAME="pdf_processor Coverage Results" MODIFIED="1649659804129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
-    <SUITE FILE_PATH="coverage/january$setup00.coverage" NAME="setup00 Coverage Results" MODIFIED="1652687531634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0" />
-    <SUITE FILE_PATH="coverage/january$setup0.coverage" NAME="setup0 Coverage Results" MODIFIED="1652708385318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0" />
-    <SUITE FILE_PATH="coverage/january$_1_.coverage" NAME="企查查(1) Coverage Results" MODIFIED="1644919307240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_com" />
-    <SUITE FILE_PATH="coverage/january$246_4.coverage" NAME="246_4 Coverage Results" MODIFIED="1652703439616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0503_homework/0516" />
-    <SUITE FILE_PATH="coverage/january$Worklist_update6.coverage" NAME="Worklist update6 Coverage Results" MODIFIED="1646988310418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
+    <SUITE FILE_PATH="coverage/january$selenium_pandas.coverage" NAME="selenium_pandas Coverage Results" MODIFIED="1642651249898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
     <SUITE FILE_PATH="coverage/january$three_point_angle.coverage" NAME="three_point_angle Coverage Results" MODIFIED="1648202443625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_angle" />
+    <SUITE FILE_PATH="coverage/january$3.coverage" NAME="3 Coverage Results" MODIFIED="1652773240874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
+    <SUITE FILE_PATH="coverage/january$excel_processor.coverage" NAME="excel_processor Coverage Results" MODIFIED="1642607629552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$PY_11_07.coverage" NAME="PY_11_07 Coverage Results" MODIFIED="1652372834895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_11" />
+    <SUITE FILE_PATH="coverage/january$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1654420560613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
+    <SUITE FILE_PATH="coverage/january$requestsp0.coverage" NAME="requestsp0 Coverage Results" MODIFIED="1650011724415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gtgqw_com" />
+    <SUITE FILE_PATH="coverage/january$test1_setup.coverage" NAME="test1_setup Coverage Results" MODIFIED="1652335655881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor/dist/pytransform" />
+    <SUITE FILE_PATH="coverage/january$qcc_selenium.coverage" NAME="qcc_selenium Coverage Results" MODIFIED="1654527592610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_com_2" />
+    <SUITE FILE_PATH="coverage/january$Worklist_update6.coverage" NAME="Worklist update6 Coverage Results" MODIFIED="1646988310418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
+    <SUITE FILE_PATH="coverage/january$_1_.coverage" NAME="企查查(1) Coverage Results" MODIFIED="1644919307240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_com" />
+    <SUITE FILE_PATH="coverage/january$setup.coverage" NAME="setup Coverage Results" MODIFIED="1652714117244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0" />
+    <SUITE FILE_PATH="coverage/january$PY_11_05.coverage" NAME="PY_11_05 Coverage Results" MODIFIED="1652371258647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_11" />
+    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9225.coverage" NAME="selenium_openpyxl_9225 Coverage Results" MODIFIED="1642407112181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$thresd.coverage" NAME="thresd Coverage Results" MODIFIED="1652670529559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql/t" />
+    <SUITE FILE_PATH="coverage/january$PY_08_06.coverage" NAME="PY_08_06 Coverage Results" MODIFIED="1652962778253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_08" />
+    <SUITE FILE_PATH="coverage/january$Worklist_update8.coverage" NAME="Worklist update8 Coverage Results" MODIFIED="1648194824186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
+    <SUITE FILE_PATH="coverage/january$requests.coverage" NAME="requests Coverage Results" MODIFIED="1651986276922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com" />
+    <SUITE FILE_PATH="coverage/january$PY_04_06.coverage" NAME="PY_04_06 Coverage Results" MODIFIED="1648137665522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_04" />
+    <SUITE FILE_PATH="coverage/january$PY_03_06.coverage" NAME="PY_03_06 Coverage Results" MODIFIED="1648176219263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
+    <SUITE FILE_PATH="coverage/january$ddt_test_start.coverage" NAME="ddt_test_start Coverage Results" MODIFIED="1649168640564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springboot16r3y" />
+    <SUITE FILE_PATH="coverage/january$0407.coverage" NAME="0407 Coverage Results" MODIFIED="1649325365595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0328_homework/3.7.0" />
+    <SUITE FILE_PATH="coverage/january$run_case0.coverage" NAME="run_case0 Coverage Results" MODIFIED="1649570821897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springboot16r3y" />
+    <SUITE FILE_PATH="coverage/january$9_0.coverage" NAME="9_0 Coverage Results" MODIFIED="1649563107661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework" />
+    <SUITE FILE_PATH="coverage/january$Worklist_update.coverage" NAME="Worklist update Coverage Results" MODIFIED="1646289363788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
+    <SUITE FILE_PATH="coverage/january$.coverage" NAME=" Coverage Results" MODIFIED="1649481867541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springboot16r3y" />
+    <SUITE FILE_PATH="coverage/january$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1651853193058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0503_homework" />
+    <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9224.coverage" NAME="selenium_openpyxl_9224 Coverage Results" MODIFIED="1642407813277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
+    <SUITE FILE_PATH="coverage/january$6.coverage" NAME="6 Coverage Results" MODIFIED="1652691023903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0503_homework/0516" />
+    <SUITE FILE_PATH="coverage/january$Project01.coverage" NAME="Project01 Coverage Results" MODIFIED="1649603017397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/poke" />
+    <SUITE FILE_PATH="coverage/january$pandas_drop.coverage" NAME="pandas_drop Coverage Results" MODIFIED="1643262415864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tsv_pandas_drop" />
+    <SUITE FILE_PATH="coverage/january$PY_11_04.coverage" NAME="PY_11_04 Coverage Results" MODIFIED="1652369873271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_11" />
+    <SUITE FILE_PATH="coverage/january$1.coverage" NAME="1 Coverage Results" MODIFIED="1653460487131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0503_homework/0525" />
+    <SUITE FILE_PATH="coverage/january$7.coverage" NAME="7 Coverage Results" MODIFIED="1651138222314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0328_homework/0428" />
+    <SUITE FILE_PATH="coverage/january$246_6.coverage" NAME="246_6 Coverage Results" MODIFIED="1652703468548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0503_homework/0516" />
+    <SUITE FILE_PATH="coverage/january$seleniumc__1_.coverage" NAME="seleniumc (1) Coverage Results" MODIFIED="1643085985007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
+    <SUITE FILE_PATH="coverage/january$3_0.coverage" NAME="3_0 Coverage Results" MODIFIED="1652774370488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
+    <SUITE FILE_PATH="coverage/january$PY_07_05.coverage" NAME="PY_07_05 Coverage Results" MODIFIED="1651159664054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_07" />
+    <SUITE FILE_PATH="coverage/january$PY_08_05.coverage" NAME="PY_08_05 Coverage Results" MODIFIED="1653015707902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_08" />
+    <SUITE FILE_PATH="coverage/january$pandas_processor.coverage" NAME="pandas_processor Coverage Results" MODIFIED="1646285648260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
+    <SUITE FILE_PATH="coverage/january$people_com_selenium_pandas.coverage" NAME="people_com_selenium_pandas Coverage Results" MODIFIED="1641741289493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/peopel_com" />
+    <SUITE FILE_PATH="coverage/january$0421.coverage" NAME="0421 Coverage Results" MODIFIED="1650535757208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0328_homework" />
+    <SUITE FILE_PATH="coverage/january$test1_setup__2_.coverage" NAME="test1_setup (2) Coverage Results" MODIFIED="1652336761746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/test_pyarmor1/dist" />
+    <SUITE FILE_PATH="coverage/january$PY_05_05.coverage" NAME="PY_05_05 Coverage Results" MODIFIED="1649941218912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_05" />
+    <SUITE FILE_PATH="coverage/january$2.coverage" NAME="2 Coverage Results" MODIFIED="1652768360136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
+    <SUITE FILE_PATH="coverage/january$setup00.coverage" NAME="setup00 Coverage Results" MODIFIED="1652687531634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0" />
+    <SUITE FILE_PATH="coverage/january$PY_03_05.coverage" NAME="PY_03_05 Coverage Results" MODIFIED="1648082809681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
+    <SUITE FILE_PATH="coverage/january$start.coverage" NAME="start Coverage Results" MODIFIED="1649142799086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/springboot16r3y" />
+    <SUITE FILE_PATH="coverage/january$PY_04_05.coverage" NAME="PY_04_05 Coverage Results" MODIFIED="1648138012521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_04" />
+    <SUITE FILE_PATH="coverage/january$qcc_selenium_3.coverage" NAME="qcc_selenium_3 Coverage Results" MODIFIED="1654523432025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_com_2" />
+    <SUITE FILE_PATH="coverage/january$246_2.coverage" NAME="246_2 Coverage Results" MODIFIED="1652703430442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0503_homework/0516" />
+    <SUITE FILE_PATH="coverage/january$setup_c.coverage" NAME="setup_c Coverage Results" MODIFIED="1652235796415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com" />
+    <SUITE FILE_PATH="coverage/january$test.coverage" NAME="test Coverage Results" MODIFIED="1652530237123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql" />
+    <SUITE FILE_PATH="coverage/january$PY_09_04.coverage" NAME="PY_09_04 Coverage Results" MODIFIED="1653570869373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_09" />
+    <SUITE FILE_PATH="coverage/january$pdf_processor__1_.coverage" NAME="pdf_processor (1) Coverage Results" MODIFIED="1649655691368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
+    <SUITE FILE_PATH="coverage/january$setup0.coverage" NAME="setup0 Coverage Results" MODIFIED="1652708385318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0" />
+    <SUITE FILE_PATH="coverage/january$selenium_pandas_exe.coverage" NAME="selenium_pandas_exe Coverage Results" MODIFIED="1642662359043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com" />
+    <SUITE FILE_PATH="coverage/january$9.coverage" NAME="9 Coverage Results" MODIFIED="1649564617994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework" />
+    <SUITE FILE_PATH="coverage/january$people_com.coverage" NAME="people_com Coverage Results" MODIFIED="1641724133338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/january$Worklist_update7.coverage" NAME="Worklist update7 Coverage Results" MODIFIED="1647492125661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
+    <SUITE FILE_PATH="coverage/january$PY_11_06.coverage" NAME="PY_11_06 Coverage Results" MODIFIED="1653569276561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_11" />
+    <SUITE FILE_PATH="coverage/january$seleniump.coverage" NAME="seleniump Coverage Results" MODIFIED="1642747514542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gameflip_com/price" />
+    <SUITE FILE_PATH="coverage/january$246_4.coverage" NAME="246_4 Coverage Results" MODIFIED="1652703439616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0503_homework/0516" />
+    <SUITE FILE_PATH="coverage/january$thresd__1_.coverage" NAME="thresd (1) Coverage Results" MODIFIED="1652524258793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql" />
+    <SUITE FILE_PATH="coverage/january$line_chart.coverage" NAME="line_chart Coverage Results" MODIFIED="1648221700785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/point_angle" />
+    <SUITE FILE_PATH="coverage/january$requestsp.coverage" NAME="requestsp Coverage Results" MODIFIED="1650892547902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hoopshype_com" />
+    <SUITE FILE_PATH="coverage/january$2__1_.coverage" NAME="2 (1) Coverage Results" MODIFIED="1651136992642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0328_homework/0428" />
+    <SUITE FILE_PATH="coverage/january$selenium_openpyxl.coverage" NAME="selenium_openpyxl Coverage Results" MODIFIED="1644495338382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/vip_cric_com" />
+    <SUITE FILE_PATH="coverage/january$0412.coverage" NAME="0412 Coverage Results" MODIFIED="1649748634499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0328_homework" />
+    <SUITE FILE_PATH="coverage/january$PY_03_07.coverage" NAME="PY_03_07 Coverage Results" MODIFIED="1648043474423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_03" />
+    <SUITE FILE_PATH="coverage/january$setup__1_.coverage" NAME="setup (1) Coverage Results" MODIFIED="1652009215265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com" />
+    <SUITE FILE_PATH="coverage/january$4.coverage" NAME="4 Coverage Results" MODIFIED="1652778777569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework/0516同济大学Python程序设计基础 实验" />
+    <SUITE FILE_PATH="coverage/january$10.coverage" NAME="10 Coverage Results" MODIFIED="1649566686822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0409_homework" />
+    <SUITE FILE_PATH="coverage/january$null_processor.coverage" NAME="null_processor Coverage Results" MODIFIED="1649854950675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
+    <SUITE FILE_PATH="coverage/january$PY_04_07.coverage" NAME="PY_04_07 Coverage Results" MODIFIED="1648141152413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_04" />
+    <SUITE FILE_PATH="coverage/january$request_cookie.coverage" NAME="request_cookie Coverage Results" MODIFIED="1650105471771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium_10086" />
   </component>
 </project>

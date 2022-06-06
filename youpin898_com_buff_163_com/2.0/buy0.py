@@ -203,8 +203,12 @@ def query_youyou_order(commodity_dict, key, mode):
                        "Key": key,
                        "LeaseDays": commodity_dict['LeaseMaxDays'] if 30 > commodity_dict['LeaseMaxDays'] else 30,
                        "UserId": 624740}
-        if commodity_dict['LeaseGiveConfigs']:
-            i = 0 if HTTPJSONKEY["LeaseDays"] < commodity_dict['LeaseGiveConfigs'][1]['leaseDays'] else 1
+        # if commodity_dict['LeaseGiveConfigs']:
+        if commodity_dict['LeaseGiveConfigs'] is not None:
+            if len(commodity_dict['LeaseGiveConfigs']) == 1:
+                i = 0
+            else:
+                i = 0 if HTTPJSONKEY["LeaseDays"] < commodity_dict['LeaseGiveConfigs'][1]['leaseDays'] else 1
             HTTPJSONKEY["leaseGiveConfigId"] = commodity_dict['LeaseGiveConfigs'][i]['id']
     try:
         res_json = json.loads(requests.post(api_url, headers=headers_app, json=HTTPJSONKEY).text)

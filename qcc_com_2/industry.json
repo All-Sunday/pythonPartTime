@@ -1,0 +1,3069 @@
+[
+  {
+    "code": "A",
+    "name": "农、林、牧、渔业",
+    "list": [
+      {
+        "code": "01",
+        "name": "农业",
+        "list": [
+          {
+            "code": "011",
+            "name": "谷物种植",
+            "checked": false
+          },
+          {
+            "code": "012",
+            "name": "豆类、油料和薯类种植",
+            "checked": false
+          },
+          {
+            "code": "013",
+            "name": "棉、麻、糖、烟草种植",
+            "checked": false
+          },
+          {
+            "code": "014",
+            "name": "蔬菜、食用菌及园艺作物种植",
+            "checked": false
+          },
+          {
+            "code": "015",
+            "name": "水果种植",
+            "checked": false
+          },
+          {
+            "code": "016",
+            "name": "坚果、含油果、香料和饮料作物种植",
+            "checked": false
+          },
+          {
+            "code": "017",
+            "name": "中药材种植",
+            "checked": false
+          },
+          {
+            "code": "018",
+            "name": "草种植及割草",
+            "checked": false
+          },
+          {
+            "code": "0190",
+            "name": "其他农业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "02",
+        "name": "林业",
+        "list": [
+          {
+            "code": "021",
+            "name": "林木育种和育苗",
+            "checked": false
+          },
+          {
+            "code": "0220",
+            "name": "造林和更新",
+            "checked": false
+          },
+          {
+            "code": "023",
+            "name": "森林经营、管护和改培",
+            "checked": false
+          },
+          {
+            "code": "024",
+            "name": "木材和竹材采运",
+            "checked": false
+          },
+          {
+            "code": "025",
+            "name": "林产品采集",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "03",
+        "name": "畜牧业",
+        "list": [
+          {
+            "code": "031",
+            "name": "牲畜饲养",
+            "checked": false
+          },
+          {
+            "code": "032",
+            "name": "家禽饲养",
+            "checked": false
+          },
+          {
+            "code": "0330",
+            "name": "狩猎和捕捉动物",
+            "checked": false
+          },
+          {
+            "code": "039",
+            "name": "其他畜牧业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "04",
+        "name": "渔业",
+        "list": [
+          {
+            "code": "041",
+            "name": "水产养殖",
+            "checked": false
+          },
+          {
+            "code": "042",
+            "name": "水产捕捞",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "05",
+        "name": "农、林、牧、渔专业及辅助性活动",
+        "list": [
+          {
+            "code": "051",
+            "name": "农业专业及辅助性活动",
+            "checked": false
+          },
+          {
+            "code": "052",
+            "name": "林业专业及辅助性活动",
+            "checked": false
+          },
+          {
+            "code": "053",
+            "name": "畜牧专业及辅助性活动",
+            "checked": false
+          },
+          {
+            "code": "054",
+            "name": "渔业专业及辅助性活动",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "B",
+    "name": "采矿业",
+    "list": [
+      {
+        "code": "06",
+        "name": "煤炭开采和洗选业",
+        "list": [
+          {
+            "code": "0610",
+            "name": "烟煤和无烟煤开采洗选",
+            "checked": false
+          },
+          {
+            "code": "0620",
+            "name": "褐煤开采洗选",
+            "checked": false
+          },
+          {
+            "code": "0690",
+            "name": "其他煤炭采选",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "07",
+        "name": "石油和天然气开采业",
+        "list": [
+          {
+            "code": "071",
+            "name": "石油开采",
+            "checked": false
+          },
+          {
+            "code": "072",
+            "name": "天然气开采",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "08",
+        "name": "黑色金属矿采选业",
+        "list": [
+          {
+            "code": "0810",
+            "name": "铁矿采选",
+            "checked": false
+          },
+          {
+            "code": "0820",
+            "name": "锰矿、铬矿采选",
+            "checked": false
+          },
+          {
+            "code": "0890",
+            "name": "其他黑色金属矿采选",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "09",
+        "name": "有色金属矿采选业",
+        "list": [
+          {
+            "code": "091",
+            "name": "常用有色金属矿采选",
+            "checked": false
+          },
+          {
+            "code": "092",
+            "name": "贵金属矿采选",
+            "checked": false
+          },
+          {
+            "code": "093",
+            "name": "稀有稀土金属矿采选",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "10",
+        "name": "非金属矿采选业",
+        "list": [
+          {
+            "code": "101",
+            "name": "土砂石开采",
+            "checked": false
+          },
+          {
+            "code": "1020",
+            "name": "化学矿开采",
+            "checked": false
+          },
+          {
+            "code": "1030",
+            "name": "采盐",
+            "checked": false
+          },
+          {
+            "code": "109",
+            "name": "石棉及其他非金属矿采选",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "11",
+        "name": "开采专业及辅助性活动",
+        "list": [
+          {
+            "code": "1110",
+            "name": "煤炭开采和洗选专业及辅助性活动",
+            "checked": false
+          },
+          {
+            "code": "1120",
+            "name": "石油和天然气开采专业及辅助性活动",
+            "checked": false
+          },
+          {
+            "code": "1190",
+            "name": "其他开采专业及辅助性活动",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "12",
+        "name": "其他采矿业",
+        "list": [
+          {
+            "code": "1200",
+            "name": "其他采矿业",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C",
+    "name": "制造业",
+    "list": [
+      {
+        "code": "13",
+        "name": "农副食品加工业",
+        "list": [
+          {
+            "code": "131",
+            "name": "谷物磨制",
+            "checked": false
+          },
+          {
+            "code": "132",
+            "name": "饲料加工",
+            "checked": false
+          },
+          {
+            "code": "133",
+            "name": "植物油加工",
+            "checked": false
+          },
+          {
+            "code": "1340",
+            "name": "制糖业",
+            "checked": false
+          },
+          {
+            "code": "135",
+            "name": "屠宰及肉类加工",
+            "checked": false
+          },
+          {
+            "code": "136",
+            "name": "水产品加工",
+            "checked": false
+          },
+          {
+            "code": "137",
+            "name": "蔬菜、菌类、水果和坚果加工",
+            "checked": false
+          },
+          {
+            "code": "139",
+            "name": "其他农副食品加工",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "14",
+        "name": "食品制造业",
+        "list": [
+          {
+            "code": "141",
+            "name": "焙烤食品制造",
+            "checked": false
+          },
+          {
+            "code": "142",
+            "name": "糖果、巧克力及蜜饯制造",
+            "checked": false
+          },
+          {
+            "code": "143",
+            "name": "方便食品制造",
+            "checked": false
+          },
+          {
+            "code": "144",
+            "name": "乳制品制造",
+            "checked": false
+          },
+          {
+            "code": "145",
+            "name": "罐头食品制造",
+            "checked": false
+          },
+          {
+            "code": "146",
+            "name": "调味品、发酵制品制造",
+            "checked": false
+          },
+          {
+            "code": "149",
+            "name": "其他食品制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "15",
+        "name": "酒、饮料和精制茶制造业",
+        "list": [
+          {
+            "code": "151",
+            "name": "酒的制造",
+            "checked": false
+          },
+          {
+            "code": "152",
+            "name": "饮料制造",
+            "checked": false
+          },
+          {
+            "code": "1530",
+            "name": "精制茶加工",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "16",
+        "name": "烟草制品业",
+        "list": [
+          {
+            "code": "1610",
+            "name": "烟叶复烤",
+            "checked": false
+          },
+          {
+            "code": "1620",
+            "name": "卷烟制造",
+            "checked": false
+          },
+          {
+            "code": "1690",
+            "name": "其他烟草制品制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "17",
+        "name": "纺织业",
+        "list": [
+          {
+            "code": "171",
+            "name": "棉纺织及印染精加工",
+            "checked": false
+          },
+          {
+            "code": "172",
+            "name": "毛纺织及染整精加工",
+            "checked": false
+          },
+          {
+            "code": "173",
+            "name": "麻纺织及染整精加工",
+            "checked": false
+          },
+          {
+            "code": "174",
+            "name": "丝绢纺织及印染精加工",
+            "checked": false
+          },
+          {
+            "code": "175",
+            "name": "化纤织造及印染精加工",
+            "checked": false
+          },
+          {
+            "code": "176",
+            "name": "针织或钩针编织物及其制品制造",
+            "checked": false
+          },
+          {
+            "code": "177",
+            "name": "家用纺织制成品制造",
+            "checked": false
+          },
+          {
+            "code": "178",
+            "name": "产业用纺织制成品制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "18",
+        "name": "纺织服装、服饰业",
+        "list": [
+          {
+            "code": "181",
+            "name": "机织服装制造",
+            "checked": false
+          },
+          {
+            "code": "182",
+            "name": "针织或钩针编织服装制造",
+            "checked": false
+          },
+          {
+            "code": "1830",
+            "name": "服饰制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "19",
+        "name": "皮革、毛皮、羽毛及其制品和制鞋业",
+        "list": [
+          {
+            "code": "1910",
+            "name": "皮革鞣制加工",
+            "checked": false
+          },
+          {
+            "code": "192",
+            "name": "皮革制品制造",
+            "checked": false
+          },
+          {
+            "code": "193",
+            "name": "毛皮鞣制及制品加工",
+            "checked": false
+          },
+          {
+            "code": "194",
+            "name": "羽毛(绒)加工及制品制造",
+            "checked": false
+          },
+          {
+            "code": "195",
+            "name": "制鞋业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "20",
+        "name": "木材加工和木、竹、藤、棕、草制品业",
+        "list": [
+          {
+            "code": "201",
+            "name": "木材加工",
+            "checked": false
+          },
+          {
+            "code": "202",
+            "name": "人造板制造",
+            "checked": false
+          },
+          {
+            "code": "203",
+            "name": "木质制品制造",
+            "checked": false
+          },
+          {
+            "code": "204",
+            "name": "竹、藤、棕、草等制品制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "21",
+        "name": "家具制造业",
+        "list": [
+          {
+            "code": "2110",
+            "name": "木质家具制造",
+            "checked": false
+          },
+          {
+            "code": "2120",
+            "name": "竹、藤家具制造",
+            "checked": false
+          },
+          {
+            "code": "2130",
+            "name": "金属家具制造",
+            "checked": false
+          },
+          {
+            "code": "2140",
+            "name": "塑料家具制造",
+            "checked": false
+          },
+          {
+            "code": "2190",
+            "name": "其他家具制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "22",
+        "name": "造纸和纸制品业",
+        "list": [
+          {
+            "code": "221",
+            "name": "纸浆制造",
+            "checked": false
+          },
+          {
+            "code": "222",
+            "name": "造纸",
+            "checked": false
+          },
+          {
+            "code": "223",
+            "name": "纸制品制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "23",
+        "name": "印刷和记录媒介复制业",
+        "list": [
+          {
+            "code": "231",
+            "name": "印刷",
+            "checked": false
+          },
+          {
+            "code": "2320",
+            "name": "装订及印刷相关服务",
+            "checked": false
+          },
+          {
+            "code": "2330",
+            "name": "记录媒介复制",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "24",
+        "name": "文教、工美、体育和娱乐用品制造业",
+        "list": [
+          {
+            "code": "241",
+            "name": "文教办公用品制造",
+            "checked": false
+          },
+          {
+            "code": "242",
+            "name": "乐器制造",
+            "checked": false
+          },
+          {
+            "code": "243",
+            "name": "工艺美术及礼仪用品制造",
+            "checked": false
+          },
+          {
+            "code": "244",
+            "name": "体育用品制造",
+            "checked": false
+          },
+          {
+            "code": "245",
+            "name": "玩具制造",
+            "checked": false
+          },
+          {
+            "code": "246",
+            "name": "游艺器材及娱乐用品制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "25",
+        "name": "石油、煤炭及其他燃料加工业",
+        "list": [
+          {
+            "code": "251",
+            "name": "精炼石油产品制造",
+            "checked": false
+          },
+          {
+            "code": "252",
+            "name": "煤炭加工",
+            "checked": false
+          },
+          {
+            "code": "2530",
+            "name": "核燃料加工",
+            "checked": false
+          },
+          {
+            "code": "254",
+            "name": "生物质燃料加工",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "26",
+        "name": "化学原料和化学制品制造业",
+        "list": [
+          {
+            "code": "261",
+            "name": "基础化学原料制造",
+            "checked": false
+          },
+          {
+            "code": "262",
+            "name": "肥料制造",
+            "checked": false
+          },
+          {
+            "code": "263",
+            "name": "农药制造",
+            "checked": false
+          },
+          {
+            "code": "264",
+            "name": "涂料、油墨、颜料及类似产品制造",
+            "checked": false
+          },
+          {
+            "code": "265",
+            "name": "合成材料制造",
+            "checked": false
+          },
+          {
+            "code": "266",
+            "name": "专用化学产品制造",
+            "checked": false
+          },
+          {
+            "code": "267",
+            "name": "炸药、火工及焰火产品制造",
+            "checked": false
+          },
+          {
+            "code": "268",
+            "name": "日用化学产品制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "27",
+        "name": "医药制造业",
+        "list": [
+          {
+            "code": "2710",
+            "name": "化学药品原料药制造",
+            "checked": false
+          },
+          {
+            "code": "2720",
+            "name": "化学药品制剂制造",
+            "checked": false
+          },
+          {
+            "code": "2730",
+            "name": "中药饮片加工",
+            "checked": false
+          },
+          {
+            "code": "2740",
+            "name": "中成药生产",
+            "checked": false
+          },
+          {
+            "code": "2750",
+            "name": "兽用药品制造",
+            "checked": false
+          },
+          {
+            "code": "276",
+            "name": "生物药品制品制造",
+            "checked": false
+          },
+          {
+            "code": "2770",
+            "name": "卫生材料及医药用品制造",
+            "checked": false
+          },
+          {
+            "code": "2780",
+            "name": "药用辅料及包装材料",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "28",
+        "name": "化学纤维制造业",
+        "list": [
+          {
+            "code": "281",
+            "name": "纤维素纤维原料及纤维制造",
+            "checked": false
+          },
+          {
+            "code": "282",
+            "name": "合成纤维制造",
+            "checked": false
+          },
+          {
+            "code": "283",
+            "name": "生物基材料制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "29",
+        "name": "橡胶和塑料制品业",
+        "list": [
+          {
+            "code": "291",
+            "name": "橡胶制品业",
+            "checked": false
+          },
+          {
+            "code": "292",
+            "name": "塑料制品业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "30",
+        "name": "非金属矿物制品业",
+        "list": [
+          {
+            "code": "301",
+            "name": "水泥、石灰和石膏制造",
+            "checked": false
+          },
+          {
+            "code": "302",
+            "name": "石膏、水泥制品及类似制品制造",
+            "checked": false
+          },
+          {
+            "code": "303",
+            "name": "砖瓦、石材等建筑材料制造",
+            "checked": false
+          },
+          {
+            "code": "304",
+            "name": "玻璃制造",
+            "checked": false
+          },
+          {
+            "code": "305",
+            "name": "玻璃制品制造",
+            "checked": false
+          },
+          {
+            "code": "306",
+            "name": "玻璃纤维和玻璃纤维增强塑料制品制造",
+            "checked": false
+          },
+          {
+            "code": "307",
+            "name": "陶瓷制品制造",
+            "checked": false
+          },
+          {
+            "code": "308",
+            "name": "耐火材料制品制造",
+            "checked": false
+          },
+          {
+            "code": "309",
+            "name": "石墨及其他非金属矿物制品制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "31",
+        "name": "黑色金属冶炼和压延加工业",
+        "list": [
+          {
+            "code": "3110",
+            "name": "炼铁",
+            "checked": false
+          },
+          {
+            "code": "3120",
+            "name": "炼钢",
+            "checked": false
+          },
+          {
+            "code": "3130",
+            "name": "钢压延加工",
+            "checked": false
+          },
+          {
+            "code": "3140",
+            "name": "铁合金冶炼",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "32",
+        "name": "有色金属冶炼和压延加工业",
+        "list": [
+          {
+            "code": "321",
+            "name": "常用有色金属冶炼",
+            "checked": false
+          },
+          {
+            "code": "322",
+            "name": "贵金属冶炼",
+            "checked": false
+          },
+          {
+            "code": "323",
+            "name": "稀有稀土金属冶炼",
+            "checked": false
+          },
+          {
+            "code": "3240",
+            "name": "有色金属合金制造",
+            "checked": false
+          },
+          {
+            "code": "325",
+            "name": "有色金属压延加工",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "33",
+        "name": "金属制品业",
+        "list": [
+          {
+            "code": "331",
+            "name": "结构性金属制品制造",
+            "checked": false
+          },
+          {
+            "code": "332",
+            "name": "金属工具制造",
+            "checked": false
+          },
+          {
+            "code": "333",
+            "name": "集装箱及金属包装容器制造",
+            "checked": false
+          },
+          {
+            "code": "3340",
+            "name": "金属丝绳及其制品制造",
+            "checked": false
+          },
+          {
+            "code": "335",
+            "name": "建筑、安全用金属制品制造",
+            "checked": false
+          },
+          {
+            "code": "3360",
+            "name": "金属表面处理及热处理加工",
+            "checked": false
+          },
+          {
+            "code": "337",
+            "name": "搪瓷制品制造",
+            "checked": false
+          },
+          {
+            "code": "338",
+            "name": "金属制日用品制造",
+            "checked": false
+          },
+          {
+            "code": "339",
+            "name": "铸造及其他金属制品制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "34",
+        "name": "通用设备制造业",
+        "list": [
+          {
+            "code": "341",
+            "name": "锅炉及原动设备制造",
+            "checked": false
+          },
+          {
+            "code": "342",
+            "name": "金属加工机械制造",
+            "checked": false
+          },
+          {
+            "code": "343",
+            "name": "物料搬运设备制造",
+            "checked": false
+          },
+          {
+            "code": "344",
+            "name": "泵、阀门、压缩机及类似机械制造",
+            "checked": false
+          },
+          {
+            "code": "345",
+            "name": "轴承、齿轮和传动部件制造",
+            "checked": false
+          },
+          {
+            "code": "346",
+            "name": "烘炉、风机、包装等设备制造",
+            "checked": false
+          },
+          {
+            "code": "347",
+            "name": "文化、办公用机械制造",
+            "checked": false
+          },
+          {
+            "code": "348",
+            "name": "通用零部件制造",
+            "checked": false
+          },
+          {
+            "code": "349",
+            "name": "其他通用设备制造业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "35",
+        "name": "专用设备制造业",
+        "list": [
+          {
+            "code": "351",
+            "name": "采矿、冶金、建筑专用设备制造",
+            "checked": false
+          },
+          {
+            "code": "352",
+            "name": "化工、木材、非金属加工专用设备制造",
+            "checked": false
+          },
+          {
+            "code": "353",
+            "name": "食品、饮料、烟草及饲料生产专用设备制造",
+            "checked": false
+          },
+          {
+            "code": "354",
+            "name": "印刷、制药、日化及日用品生产专用设备制造",
+            "checked": false
+          },
+          {
+            "code": "355",
+            "name": "纺织、服装和皮革加工专用设备制造",
+            "checked": false
+          },
+          {
+            "code": "356",
+            "name": "电子和电工机械专用设备制造",
+            "checked": false
+          },
+          {
+            "code": "357",
+            "name": "农、林、牧、渔专用机械制造",
+            "checked": false
+          },
+          {
+            "code": "358",
+            "name": "医疗仪器设备及器械制造",
+            "checked": false
+          },
+          {
+            "code": "359",
+            "name": "环保、邮政、社会公共服务及其他专用设备制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "36",
+        "name": "汽车制造业",
+        "list": [
+          {
+            "code": "361",
+            "name": "汽车整车制造",
+            "checked": false
+          },
+          {
+            "code": "3620",
+            "name": "汽车用发动机制造",
+            "checked": false
+          },
+          {
+            "code": "3630",
+            "name": "改装汽车制造",
+            "checked": false
+          },
+          {
+            "code": "3640",
+            "name": "低速汽车制造",
+            "checked": false
+          },
+          {
+            "code": "3650",
+            "name": "电车制造",
+            "checked": false
+          },
+          {
+            "code": "3660",
+            "name": "汽车车身、挂车制造",
+            "checked": false
+          },
+          {
+            "code": "3670",
+            "name": "汽车零部件及配件制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "37",
+        "name": "铁路、船舶、航空航天和其他运输设备制造业",
+        "list": [
+          {
+            "code": "371",
+            "name": "铁路运输设备制造",
+            "checked": false
+          },
+          {
+            "code": "3720",
+            "name": "城市轨道交通设备制造",
+            "checked": false
+          },
+          {
+            "code": "373",
+            "name": "船舶及相关装置制造",
+            "checked": false
+          },
+          {
+            "code": "374",
+            "name": "航空、航天器及设备制造",
+            "checked": false
+          },
+          {
+            "code": "375",
+            "name": "摩托车制造",
+            "checked": false
+          },
+          {
+            "code": "376",
+            "name": "自行车和残疾人座车制造",
+            "checked": false
+          },
+          {
+            "code": "3770",
+            "name": "助动车制造",
+            "checked": false
+          },
+          {
+            "code": "3780",
+            "name": "非公路休闲车及零配件制造",
+            "checked": false
+          },
+          {
+            "code": "379",
+            "name": "潜水救捞及其他未列明运输设备制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "38",
+        "name": "电气机械和器材制造业",
+        "list": [
+          {
+            "code": "381",
+            "name": "电机制造",
+            "checked": false
+          },
+          {
+            "code": "382",
+            "name": "输配电及控制设备制造",
+            "checked": false
+          },
+          {
+            "code": "383",
+            "name": "电线、电缆、光缆及电工器材制造",
+            "checked": false
+          },
+          {
+            "code": "384",
+            "name": "电池制造",
+            "checked": false
+          },
+          {
+            "code": "385",
+            "name": "家用电力器具制造",
+            "checked": false
+          },
+          {
+            "code": "386",
+            "name": "非电力家用器具制造",
+            "checked": false
+          },
+          {
+            "code": "387",
+            "name": "照明器具制造",
+            "checked": false
+          },
+          {
+            "code": "389",
+            "name": "其他电气机械及器材制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "39",
+        "name": "计算机、通信和其他电子设备制造业",
+        "list": [
+          {
+            "code": "391",
+            "name": "计算机制造",
+            "checked": false
+          },
+          {
+            "code": "392",
+            "name": "通信设备制造",
+            "checked": false
+          },
+          {
+            "code": "393",
+            "name": "广播电视设备制造",
+            "checked": false
+          },
+          {
+            "code": "3940",
+            "name": "雷达及配套设备制造",
+            "checked": false
+          },
+          {
+            "code": "395",
+            "name": "非专业视听设备制造",
+            "checked": false
+          },
+          {
+            "code": "396",
+            "name": "智能消费设备制造",
+            "checked": false
+          },
+          {
+            "code": "397",
+            "name": "电子器件制造",
+            "checked": false
+          },
+          {
+            "code": "398",
+            "name": "电子元件及电子专用材料制造",
+            "checked": false
+          },
+          {
+            "code": "3990",
+            "name": "其他电子设备制造",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "40",
+        "name": "仪器仪表制造业",
+        "list": [
+          {
+            "code": "401",
+            "name": "通用仪器仪表制造",
+            "checked": false
+          },
+          {
+            "code": "402",
+            "name": "专用仪器仪表制造",
+            "checked": false
+          },
+          {
+            "code": "4030",
+            "name": "钟表与计时仪器制造",
+            "checked": false
+          },
+          {
+            "code": "4040",
+            "name": "光学仪器制造",
+            "checked": false
+          },
+          {
+            "code": "4050",
+            "name": "衡器制造",
+            "checked": false
+          },
+          {
+            "code": "4090",
+            "name": "其他仪器仪表制造业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "41",
+        "name": "其他制造业",
+        "list": [
+          {
+            "code": "411",
+            "name": "日用杂品制造",
+            "checked": false
+          },
+          {
+            "code": "4120",
+            "name": "核辐射加工",
+            "checked": false
+          },
+          {
+            "code": "4190",
+            "name": "其他未列明制造业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "42",
+        "name": "废弃资源综合利用业",
+        "list": [
+          {
+            "code": "4210",
+            "name": "金属废料和碎屑加工处理",
+            "checked": false
+          },
+          {
+            "code": "4220",
+            "name": "非金属废料和碎屑加工处理",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "43",
+        "name": "金属制品、机械和设备修理业",
+        "list": [
+          {
+            "code": "4310",
+            "name": "金属制品修理",
+            "checked": false
+          },
+          {
+            "code": "4320",
+            "name": "通用设备修理",
+            "checked": false
+          },
+          {
+            "code": "4330",
+            "name": "专用设备修理",
+            "checked": false
+          },
+          {
+            "code": "434",
+            "name": "铁路、船舶、航空航天等运输设备修理",
+            "checked": false
+          },
+          {
+            "code": "4350",
+            "name": "电气设备修理",
+            "checked": false
+          },
+          {
+            "code": "4360",
+            "name": "仪器仪表修理",
+            "checked": false
+          },
+          {
+            "code": "4390",
+            "name": "其他机械和设备修理业",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "D",
+    "name": "电力、热力、燃气及水生产和供应业",
+    "list": [
+      {
+        "code": "44",
+        "name": "电力、热力生产和供应业",
+        "list": [
+          {
+            "code": "441",
+            "name": "电力生产",
+            "checked": false
+          },
+          {
+            "code": "4420",
+            "name": "电力供应",
+            "checked": false
+          },
+          {
+            "code": "4430",
+            "name": "热力生产和供应",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "45",
+        "name": "燃气生产和供应业",
+        "list": [
+          {
+            "code": "451",
+            "name": "燃气生产和供应业",
+            "checked": false
+          },
+          {
+            "code": "4520",
+            "name": "生物质燃气生产和供应业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "46",
+        "name": "水的生产和供应业",
+        "list": [
+          {
+            "code": "4610",
+            "name": "自来水生产和供应",
+            "checked": false
+          },
+          {
+            "code": "4620",
+            "name": "污水处理及其再生利用",
+            "checked": false
+          },
+          {
+            "code": "4630",
+            "name": "海水淡化处理",
+            "checked": false
+          },
+          {
+            "code": "4690",
+            "name": "其他水的处理、利用与分配",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "E",
+    "name": "建筑业",
+    "list": [
+      {
+        "code": "47",
+        "name": "房屋建筑业",
+        "list": [
+          {
+            "code": "4710",
+            "name": "住宅房屋建筑",
+            "checked": false
+          },
+          {
+            "code": "4720",
+            "name": "体育场馆建筑",
+            "checked": false
+          },
+          {
+            "code": "4790",
+            "name": "其他房屋建筑业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "48",
+        "name": "土木工程建筑业",
+        "list": [
+          {
+            "code": "481",
+            "name": "铁路、道路、隧道和桥梁工程建筑",
+            "checked": false
+          },
+          {
+            "code": "482",
+            "name": "水利和水运工程建筑",
+            "checked": false
+          },
+          {
+            "code": "483",
+            "name": "海洋工程建筑",
+            "checked": false
+          },
+          {
+            "code": "4840",
+            "name": "工矿工程建筑",
+            "checked": false
+          },
+          {
+            "code": "485",
+            "name": "架线和管道工程建筑",
+            "checked": false
+          },
+          {
+            "code": "486",
+            "name": "节能环保工程施工",
+            "checked": false
+          },
+          {
+            "code": "487",
+            "name": "电力工程施工",
+            "checked": false
+          },
+          {
+            "code": "489",
+            "name": "其他土木工程建筑",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "49",
+        "name": "建筑安装业",
+        "list": [
+          {
+            "code": "4910",
+            "name": "电气安装",
+            "checked": false
+          },
+          {
+            "code": "4920",
+            "name": "管道和设备安装",
+            "checked": false
+          },
+          {
+            "code": "499",
+            "name": "其他建筑安装业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "50",
+        "name": "建筑装饰、装修和其他建筑业",
+        "list": [
+          {
+            "code": "501",
+            "name": "建筑装饰和装修业",
+            "checked": false
+          },
+          {
+            "code": "502",
+            "name": "建筑物拆除和场地准备活动",
+            "checked": false
+          },
+          {
+            "code": "5030",
+            "name": "提供施工设备服务",
+            "checked": false
+          },
+          {
+            "code": "5090",
+            "name": "其他未列明建筑业",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "F",
+    "name": "批发和零售业",
+    "list": [
+      {
+        "code": "51",
+        "name": "批发业",
+        "list": [
+          {
+            "code": "511",
+            "name": "农、林、牧、渔产品批发",
+            "checked": false
+          },
+          {
+            "code": "512",
+            "name": "食品、饮料及烟草制品批发",
+            "checked": false
+          },
+          {
+            "code": "513",
+            "name": "纺织、服装及家庭用品批发",
+            "checked": false
+          },
+          {
+            "code": "514",
+            "name": "文化、体育用品及器材批发",
+            "checked": false
+          },
+          {
+            "code": "515",
+            "name": "医药及医疗器材批发",
+            "checked": false
+          },
+          {
+            "code": "516",
+            "name": "矿产品、建材及化工产品批发",
+            "checked": false
+          },
+          {
+            "code": "517",
+            "name": "机械设备、五金产品及电子产品批发",
+            "checked": false
+          },
+          {
+            "code": "518",
+            "name": "贸易经纪与代理",
+            "checked": false
+          },
+          {
+            "code": "519",
+            "name": "其他批发业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "52",
+        "name": "零售业",
+        "list": [
+          {
+            "code": "521",
+            "name": "综合零售",
+            "checked": false
+          },
+          {
+            "code": "522",
+            "name": "食品、饮料及烟草制品专门零售",
+            "checked": false
+          },
+          {
+            "code": "523",
+            "name": "纺织、服装及日用品专门零售",
+            "checked": false
+          },
+          {
+            "code": "524",
+            "name": "文化、体育用品及器材专门零售",
+            "checked": false
+          },
+          {
+            "code": "525",
+            "name": "医药及医疗器材专门零售",
+            "checked": false
+          },
+          {
+            "code": "526",
+            "name": "汽车、摩托车、零配件和燃料及其他动力销售",
+            "checked": false
+          },
+          {
+            "code": "527",
+            "name": "家用电器及电子产品专门零售",
+            "checked": false
+          },
+          {
+            "code": "528",
+            "name": "五金、家具及室内装饰材料专门零售",
+            "checked": false
+          },
+          {
+            "code": "529",
+            "name": "货摊、无店铺及其他零售业",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "G",
+    "name": "交通运输、仓储和邮政业",
+    "list": [
+      {
+        "code": "53",
+        "name": "铁路运输业",
+        "list": [
+          {
+            "code": "531",
+            "name": "铁路旅客运输",
+            "checked": false
+          },
+          {
+            "code": "5320",
+            "name": "铁路货物运输",
+            "checked": false
+          },
+          {
+            "code": "533",
+            "name": "铁路运输辅助活动",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "54",
+        "name": "道路运输业",
+        "list": [
+          {
+            "code": "541",
+            "name": "城市公共交通运输",
+            "checked": false
+          },
+          {
+            "code": "542",
+            "name": "公路旅客运输",
+            "checked": false
+          },
+          {
+            "code": "543",
+            "name": "道路货物运输",
+            "checked": false
+          },
+          {
+            "code": "544",
+            "name": "道路运输辅助活动",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "55",
+        "name": "水上运输业",
+        "list": [
+          {
+            "code": "551",
+            "name": "水上旅客运输",
+            "checked": false
+          },
+          {
+            "code": "552",
+            "name": "水上货物运输",
+            "checked": false
+          },
+          {
+            "code": "553",
+            "name": "水上运输辅助活动",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "56",
+        "name": "航空运输业",
+        "list": [
+          {
+            "code": "561",
+            "name": "航空客货运输",
+            "checked": false
+          },
+          {
+            "code": "562",
+            "name": "通用航空服务",
+            "checked": false
+          },
+          {
+            "code": "563",
+            "name": "航空运输辅助活动",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "57",
+        "name": "管道运输业",
+        "list": [
+          {
+            "code": "5710",
+            "name": "海底管道运输",
+            "checked": false
+          },
+          {
+            "code": "5720",
+            "name": "陆地管道运输",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "58",
+        "name": "多式联运和运输代理业",
+        "list": [
+          {
+            "code": "5810",
+            "name": "多式联运",
+            "checked": false
+          },
+          {
+            "code": "582",
+            "name": "运输代理业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "59",
+        "name": "装卸搬运和仓储业",
+        "list": [
+          {
+            "code": "5910",
+            "name": "装卸搬运",
+            "checked": false
+          },
+          {
+            "code": "5920",
+            "name": "通用仓储",
+            "checked": false
+          },
+          {
+            "code": "5930",
+            "name": "低温仓储",
+            "checked": false
+          },
+          {
+            "code": "594",
+            "name": "危险品仓储",
+            "checked": false
+          },
+          {
+            "code": "595",
+            "name": "谷物、棉花等农产品仓储",
+            "checked": false
+          },
+          {
+            "code": "5960",
+            "name": "中药材仓储",
+            "checked": false
+          },
+          {
+            "code": "5990",
+            "name": "其他仓储业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "60",
+        "name": "邮政业",
+        "list": [
+          {
+            "code": "6010",
+            "name": "邮政基本服务",
+            "checked": false
+          },
+          {
+            "code": "6020",
+            "name": "快递服务",
+            "checked": false
+          },
+          {
+            "code": "6090",
+            "name": "其他寄递服务",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "H",
+    "name": "住宿和餐饮业",
+    "list": [
+      {
+        "code": "61",
+        "name": "住宿业",
+        "list": [
+          {
+            "code": "6110",
+            "name": "旅游饭店",
+            "checked": false
+          },
+          {
+            "code": "612",
+            "name": "一般旅馆",
+            "checked": false
+          },
+          {
+            "code": "6130",
+            "name": "民宿服务",
+            "checked": false
+          },
+          {
+            "code": "6140",
+            "name": "露营地服务",
+            "checked": false
+          },
+          {
+            "code": "6190",
+            "name": "其他住宿业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "62",
+        "name": "餐饮业",
+        "list": [
+          {
+            "code": "6210",
+            "name": "正餐服务",
+            "checked": false
+          },
+          {
+            "code": "6220",
+            "name": "快餐服务",
+            "checked": false
+          },
+          {
+            "code": "623",
+            "name": "饮料及冷饮服务",
+            "checked": false
+          },
+          {
+            "code": "624",
+            "name": "餐饮配送及外卖送餐服务",
+            "checked": false
+          },
+          {
+            "code": "629",
+            "name": "其他餐饮业",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "I",
+    "name": "信息传输、软件和信息技术服务业",
+    "list": [
+      {
+        "code": "63",
+        "name": "电信、广播电视和卫星传输服务",
+        "list": [
+          {
+            "code": "631",
+            "name": "电信",
+            "checked": false
+          },
+          {
+            "code": "632",
+            "name": "广播电视传输服务",
+            "checked": false
+          },
+          {
+            "code": "633",
+            "name": "卫星传输服务",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "64",
+        "name": "互联网和相关服务",
+        "list": [
+          {
+            "code": "6410",
+            "name": "互联网接入及相关服务",
+            "checked": false
+          },
+          {
+            "code": "642",
+            "name": "互联网信息服务",
+            "checked": false
+          },
+          {
+            "code": "643",
+            "name": "互联网平台",
+            "checked": false
+          },
+          {
+            "code": "6440",
+            "name": "互联网安全服务",
+            "checked": false
+          },
+          {
+            "code": "6450",
+            "name": "互联网数据服务",
+            "checked": false
+          },
+          {
+            "code": "6490",
+            "name": "其他互联网服务",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "65",
+        "name": "软件和信息技术服务业",
+        "list": [
+          {
+            "code": "651",
+            "name": "软件开发",
+            "checked": false
+          },
+          {
+            "code": "6520",
+            "name": "集成电路设计",
+            "checked": false
+          },
+          {
+            "code": "653",
+            "name": "信息系统集成和物联网技术服务",
+            "checked": false
+          },
+          {
+            "code": "6540",
+            "name": "运行维护服务",
+            "checked": false
+          },
+          {
+            "code": "6550",
+            "name": "信息处理和存储支持服务",
+            "checked": false
+          },
+          {
+            "code": "6560",
+            "name": "信息技术咨询服务",
+            "checked": false
+          },
+          {
+            "code": "657",
+            "name": "数字内容服务",
+            "checked": false
+          },
+          {
+            "code": "659",
+            "name": "其他信息技术服务业",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "J",
+    "name": "金融业",
+    "list": [
+      {
+        "code": "66",
+        "name": "货币金融服务",
+        "list": [
+          {
+            "code": "6610",
+            "name": "中央银行服务",
+            "checked": false
+          },
+          {
+            "code": "662",
+            "name": "货币银行服务",
+            "checked": false
+          },
+          {
+            "code": "663",
+            "name": "非货币银行服务",
+            "checked": false
+          },
+          {
+            "code": "6640",
+            "name": "银行理财服务",
+            "checked": false
+          },
+          {
+            "code": "6650",
+            "name": "银行监管服务",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "67",
+        "name": "资本市场服务",
+        "list": [
+          {
+            "code": "671",
+            "name": "证券市场服务",
+            "checked": false
+          },
+          {
+            "code": "6720",
+            "name": "公开募集证券投资基金",
+            "checked": false
+          },
+          {
+            "code": "673",
+            "name": "非公开募集证券投资基金",
+            "checked": false
+          },
+          {
+            "code": "674",
+            "name": "期货市场服务",
+            "checked": false
+          },
+          {
+            "code": "6750",
+            "name": "证券期货监管服务",
+            "checked": false
+          },
+          {
+            "code": "6760",
+            "name": "资本投资服务",
+            "checked": false
+          },
+          {
+            "code": "6790",
+            "name": "其他资本市场服务",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "68",
+        "name": "保险业",
+        "list": [
+          {
+            "code": "681",
+            "name": "人身保险",
+            "checked": false
+          },
+          {
+            "code": "6820",
+            "name": "财产保险",
+            "checked": false
+          },
+          {
+            "code": "6830",
+            "name": "再保险",
+            "checked": false
+          },
+          {
+            "code": "6840",
+            "name": "商业养老金",
+            "checked": false
+          },
+          {
+            "code": "685",
+            "name": "保险中介服务",
+            "checked": false
+          },
+          {
+            "code": "6860",
+            "name": "保险资产管理",
+            "checked": false
+          },
+          {
+            "code": "6870",
+            "name": "保险监管服务",
+            "checked": false
+          },
+          {
+            "code": "6890",
+            "name": "其他保险活动",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "69",
+        "name": "其他金融业",
+        "list": [
+          {
+            "code": "691",
+            "name": "金融信托与管理服务",
+            "checked": false
+          },
+          {
+            "code": "6920",
+            "name": "控股公司服务",
+            "checked": false
+          },
+          {
+            "code": "6930",
+            "name": "非金融机构支付服务",
+            "checked": false
+          },
+          {
+            "code": "6940",
+            "name": "金融信息服务",
+            "checked": false
+          },
+          {
+            "code": "6950",
+            "name": "金融资产管理公司",
+            "checked": false
+          },
+          {
+            "code": "699",
+            "name": "其他未列明金融业",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "K",
+    "name": "房地产业",
+    "list": [
+      {
+        "code": "70",
+        "name": "房地产业",
+        "list": [
+          {
+            "code": "7010",
+            "name": "房地产开发经营",
+            "checked": false
+          },
+          {
+            "code": "7020",
+            "name": "物业管理",
+            "checked": false
+          },
+          {
+            "code": "7030",
+            "name": "房地产中介服务",
+            "checked": false
+          },
+          {
+            "code": "7040",
+            "name": "房地产租赁经营",
+            "checked": false
+          },
+          {
+            "code": "7090",
+            "name": "其他房地产业",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "L",
+    "name": "租赁和商务服务业",
+    "list": [
+      {
+        "code": "71",
+        "name": "租赁业",
+        "list": [
+          {
+            "code": "711",
+            "name": "机械设备经营租赁",
+            "checked": false
+          },
+          {
+            "code": "712",
+            "name": "文体设备和用品出租",
+            "checked": false
+          },
+          {
+            "code": "7130",
+            "name": "日用品出租",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "72",
+        "name": "商务服务业",
+        "list": [
+          {
+            "code": "721",
+            "name": "组织管理服务",
+            "checked": false
+          },
+          {
+            "code": "722",
+            "name": "综合管理服务",
+            "checked": false
+          },
+          {
+            "code": "723",
+            "name": "法律服务",
+            "checked": false
+          },
+          {
+            "code": "724",
+            "name": "咨询与调查",
+            "checked": false
+          },
+          {
+            "code": "725",
+            "name": "广告业",
+            "checked": false
+          },
+          {
+            "code": "726",
+            "name": "人力资源服务",
+            "checked": false
+          },
+          {
+            "code": "727",
+            "name": "安全保护服务",
+            "checked": false
+          },
+          {
+            "code": "728",
+            "name": "会议、展览及相关服务",
+            "checked": false
+          },
+          {
+            "code": "729",
+            "name": "其他商务服务业",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "M",
+    "name": "科学研究和技术服务业",
+    "list": [
+      {
+        "code": "73",
+        "name": "研究和试验发展",
+        "list": [
+          {
+            "code": "7310",
+            "name": "自然科学研究和试验发展",
+            "checked": false
+          },
+          {
+            "code": "7320",
+            "name": "工程和技术研究和试验发展",
+            "checked": false
+          },
+          {
+            "code": "7330",
+            "name": "农业科学研究和试验发展",
+            "checked": false
+          },
+          {
+            "code": "7340",
+            "name": "医学研究和试验发展",
+            "checked": false
+          },
+          {
+            "code": "7350",
+            "name": "社会人文科学研究",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "74",
+        "name": "专业技术服务业",
+        "list": [
+          {
+            "code": "7410",
+            "name": "气象服务",
+            "checked": false
+          },
+          {
+            "code": "7420",
+            "name": "地震服务",
+            "checked": false
+          },
+          {
+            "code": "743",
+            "name": "海洋服务",
+            "checked": false
+          },
+          {
+            "code": "744",
+            "name": "测绘地理信息服务",
+            "checked": false
+          },
+          {
+            "code": "745",
+            "name": "质检技术服务",
+            "checked": false
+          },
+          {
+            "code": "746",
+            "name": "环境与生态监测检测服务",
+            "checked": false
+          },
+          {
+            "code": "747",
+            "name": "地质勘查",
+            "checked": false
+          },
+          {
+            "code": "748",
+            "name": "工程技术与设计服务",
+            "checked": false
+          },
+          {
+            "code": "749",
+            "name": "工业与专业设计及其他专业技术服务",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "75",
+        "name": "科技推广和应用服务业",
+        "list": [
+          {
+            "code": "751",
+            "name": "技术推广服务",
+            "checked": false
+          },
+          {
+            "code": "7520",
+            "name": "知识产权服务",
+            "checked": false
+          },
+          {
+            "code": "7530",
+            "name": "科技中介服务",
+            "checked": false
+          },
+          {
+            "code": "7540",
+            "name": "创业空间服务",
+            "checked": false
+          },
+          {
+            "code": "7590",
+            "name": "其他科技推广服务业",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "N",
+    "name": "水利、环境和公共设施管理业",
+    "list": [
+      {
+        "code": "76",
+        "name": "水利管理业",
+        "list": [
+          {
+            "code": "7610",
+            "name": "防洪除涝设施管理",
+            "checked": false
+          },
+          {
+            "code": "7620",
+            "name": "水资源管理",
+            "checked": false
+          },
+          {
+            "code": "7630",
+            "name": "天然水收集与分配",
+            "checked": false
+          },
+          {
+            "code": "7640",
+            "name": "水文服务",
+            "checked": false
+          },
+          {
+            "code": "7690",
+            "name": "其他水利管理业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "77",
+        "name": "生态保护和环境治理业",
+        "list": [
+          {
+            "code": "771",
+            "name": "生态保护",
+            "checked": false
+          },
+          {
+            "code": "772",
+            "name": "环境治理业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "78",
+        "name": "公共设施管理业",
+        "list": [
+          {
+            "code": "7810",
+            "name": "市政设施管理",
+            "checked": false
+          },
+          {
+            "code": "7820",
+            "name": "环境卫生管理",
+            "checked": false
+          },
+          {
+            "code": "7830",
+            "name": "城乡市容管理",
+            "checked": false
+          },
+          {
+            "code": "7840",
+            "name": "绿化管理",
+            "checked": false
+          },
+          {
+            "code": "7850",
+            "name": "城市公园管理",
+            "checked": false
+          },
+          {
+            "code": "786",
+            "name": "游览景区管理",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "79",
+        "name": "土地管理业",
+        "list": [
+          {
+            "code": "7910",
+            "name": "土地整治服务",
+            "checked": false
+          },
+          {
+            "code": "7920",
+            "name": "土地调查评估服务",
+            "checked": false
+          },
+          {
+            "code": "7930",
+            "name": "土地登记服务",
+            "checked": false
+          },
+          {
+            "code": "7940",
+            "name": "土地登记代理服务",
+            "checked": false
+          },
+          {
+            "code": "7990",
+            "name": "其他土地管理服务",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "O",
+    "name": "居民服务、修理和其他服务业",
+    "list": [
+      {
+        "code": "80",
+        "name": "居民服务业",
+        "list": [
+          {
+            "code": "8010",
+            "name": "家庭服务",
+            "checked": false
+          },
+          {
+            "code": "8020",
+            "name": "托儿所服务",
+            "checked": false
+          },
+          {
+            "code": "8030",
+            "name": "洗染服务",
+            "checked": false
+          },
+          {
+            "code": "8040",
+            "name": "理发及美容服务",
+            "checked": false
+          },
+          {
+            "code": "805",
+            "name": "洗浴和保健养生服务",
+            "checked": false
+          },
+          {
+            "code": "8060",
+            "name": "摄影扩印服务",
+            "checked": false
+          },
+          {
+            "code": "8070",
+            "name": "婚姻服务",
+            "checked": false
+          },
+          {
+            "code": "8080",
+            "name": "殡葬服务",
+            "checked": false
+          },
+          {
+            "code": "8090",
+            "name": "其他居民服务业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "81",
+        "name": "机动车、电子产品和日用产品修理业",
+        "list": [
+          {
+            "code": "811",
+            "name": "汽车、摩托车等修理与维护",
+            "checked": false
+          },
+          {
+            "code": "812",
+            "name": "计算机和办公设备维修",
+            "checked": false
+          },
+          {
+            "code": "813",
+            "name": "家用电器修理",
+            "checked": false
+          },
+          {
+            "code": "819",
+            "name": "其他日用产品修理业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "82",
+        "name": "其他服务业",
+        "list": [
+          {
+            "code": "821",
+            "name": "清洁服务",
+            "checked": false
+          },
+          {
+            "code": "822",
+            "name": "宠物服务",
+            "checked": false
+          },
+          {
+            "code": "8290",
+            "name": "其他未列明服务业",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P",
+    "name": "教育",
+    "list": [
+      {
+        "code": "83",
+        "name": "教育",
+        "list": [
+          {
+            "code": "8310",
+            "name": "学前教育",
+            "checked": false
+          },
+          {
+            "code": "832",
+            "name": "初等教育",
+            "checked": false
+          },
+          {
+            "code": "833",
+            "name": "中等教育",
+            "checked": false
+          },
+          {
+            "code": "834",
+            "name": "高等教育",
+            "checked": false
+          },
+          {
+            "code": "8350",
+            "name": "特殊教育",
+            "checked": false
+          },
+          {
+            "code": "839",
+            "name": "技能培训、教育辅助及其他教育",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "Q",
+    "name": "卫生和社会工作",
+    "list": [
+      {
+        "code": "84",
+        "name": "卫生",
+        "list": [
+          {
+            "code": "841",
+            "name": "医院",
+            "checked": false
+          },
+          {
+            "code": "842",
+            "name": "基层医疗卫生服务",
+            "checked": false
+          },
+          {
+            "code": "843",
+            "name": "专业公共卫生服务",
+            "checked": false
+          },
+          {
+            "code": "849",
+            "name": "其他卫生活动",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "85",
+        "name": "社会工作",
+        "list": [
+          {
+            "code": "851",
+            "name": "提供住宿社会工作",
+            "checked": false
+          },
+          {
+            "code": "852",
+            "name": "不提供住宿社会工作",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "R",
+    "name": "文化、体育和娱乐业",
+    "list": [
+      {
+        "code": "86",
+        "name": "新闻和出版业",
+        "list": [
+          {
+            "code": "8610",
+            "name": "新闻业",
+            "checked": false
+          },
+          {
+            "code": "862",
+            "name": "出版业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "87",
+        "name": "广播、电视、电影和录音制作业",
+        "list": [
+          {
+            "code": "8710",
+            "name": "广播",
+            "checked": false
+          },
+          {
+            "code": "8720",
+            "name": "电视",
+            "checked": false
+          },
+          {
+            "code": "8730",
+            "name": "影视节目制作",
+            "checked": false
+          },
+          {
+            "code": "8740",
+            "name": "广播电视集成播控",
+            "checked": false
+          },
+          {
+            "code": "8750",
+            "name": "电影和广播电视节目发行",
+            "checked": false
+          },
+          {
+            "code": "8760",
+            "name": "电影放映",
+            "checked": false
+          },
+          {
+            "code": "8770",
+            "name": "录音制作",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "88",
+        "name": "文化艺术业",
+        "list": [
+          {
+            "code": "8810",
+            "name": "文艺创作与表演",
+            "checked": false
+          },
+          {
+            "code": "8820",
+            "name": "艺术表演场馆",
+            "checked": false
+          },
+          {
+            "code": "883",
+            "name": "图书馆与档案馆",
+            "checked": false
+          },
+          {
+            "code": "8840",
+            "name": "文物及非物质文化遗产保护",
+            "checked": false
+          },
+          {
+            "code": "8850",
+            "name": "博物馆",
+            "checked": false
+          },
+          {
+            "code": "8860",
+            "name": "烈士陵园、纪念馆",
+            "checked": false
+          },
+          {
+            "code": "8870",
+            "name": "群众文体活动",
+            "checked": false
+          },
+          {
+            "code": "8890",
+            "name": "其他文化艺术业",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "89",
+        "name": "体育",
+        "list": [
+          {
+            "code": "891",
+            "name": "体育组织",
+            "checked": false
+          },
+          {
+            "code": "892",
+            "name": "体育场地设施管理",
+            "checked": false
+          },
+          {
+            "code": "8930",
+            "name": "健身休闲活动",
+            "checked": false
+          },
+          {
+            "code": "899",
+            "name": "其他体育",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "90",
+        "name": "娱乐业",
+        "list": [
+          {
+            "code": "901",
+            "name": "室内娱乐活动",
+            "checked": false
+          },
+          {
+            "code": "9020",
+            "name": "游乐园",
+            "checked": false
+          },
+          {
+            "code": "9030",
+            "name": "休闲观光活动",
+            "checked": false
+          },
+          {
+            "code": "904",
+            "name": "彩票活动",
+            "checked": false
+          },
+          {
+            "code": "905",
+            "name": "文化体育娱乐活动与经纪代理服务",
+            "checked": false
+          },
+          {
+            "code": "9090",
+            "name": "其他娱乐业",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "S",
+    "name": "公共管理、社会保障和社会组织",
+    "list": [
+      {
+        "code": "91",
+        "name": "中国共产党机关",
+        "list": [
+          {
+            "code": "9100",
+            "name": "中国共产党机关",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "92",
+        "name": "国家机构",
+        "list": [
+          {
+            "code": "9210",
+            "name": "国家权力机构",
+            "checked": false
+          },
+          {
+            "code": "922",
+            "name": "国家行政机构",
+            "checked": false
+          },
+          {
+            "code": "923",
+            "name": "人民法院和人民检察院",
+            "checked": false
+          },
+          {
+            "code": "929",
+            "name": "其他国家机构",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "93",
+        "name": "人民政协、民主党派",
+        "list": [
+          {
+            "code": "9310",
+            "name": "人民政协",
+            "checked": false
+          },
+          {
+            "code": "9320",
+            "name": "民主党派",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "94",
+        "name": "社会保障",
+        "list": [
+          {
+            "code": "941",
+            "name": "基本保险",
+            "checked": false
+          },
+          {
+            "code": "9420",
+            "name": "补充保险",
+            "checked": false
+          },
+          {
+            "code": "9490",
+            "name": "其他社会保障",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "95",
+        "name": "群众团体、社会团体和其他成员组织",
+        "list": [
+          {
+            "code": "951",
+            "name": "群众团体",
+            "checked": false
+          },
+          {
+            "code": "952",
+            "name": "社会团体",
+            "checked": false
+          },
+          {
+            "code": "9530",
+            "name": "基金会",
+            "checked": false
+          },
+          {
+            "code": "954",
+            "name": "宗教组织",
+            "checked": false
+          }
+        ]
+      },
+      {
+        "code": "96",
+        "name": "基层群众自治组织及其他组织",
+        "list": [
+          {
+            "code": "9610",
+            "name": "社区居民自治组织",
+            "checked": false
+          },
+          {
+            "code": "9620",
+            "name": "村民自治组织",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "T",
+    "name": "国际组织",
+    "list": [
+      {
+        "code": "97",
+        "name": "国际组织",
+        "list": [
+          {
+            "code": "9700",
+            "name": "国际组织",
+            "checked": false
+          }
+        ]
+      }
+    ]
+  }
+]
