@@ -315,12 +315,12 @@ def get_res(t_name, df, buff_res, header, ua, email_dict, eamil_time_gap):
                 if key in buff_res:
                     msg = ''
                     mode = ''
-                    if 0 < commodity_dict[key][2] < buff_res[key] * data[3]:
+                    if (buff_res[key] * 0.6) <= commodity_dict[key][2] <= (buff_res[key] * data[3]):
                         msg += key + ' 售价为' + str(commodity_dict[key][2]) + '，buff为' + str(buff_res[key]) + '\n'
 
                         mode += '2'
 
-                    if 0 < commodity_dict[key][1] < buff_res[key] * data[3]:
+                    if (buff_res[key] * 0.6) <= commodity_dict[key][1] <= (buff_res[key] * data[3]):
                         msg += key + ' 押金为' + str(commodity_dict[key][1]) + '，buff为' + str(buff_res[key])
                         mode += '1'
 

@@ -17,7 +17,8 @@ import smtplib
 def send_mail(mail_title='', mail_content=''):
     sender_username = 'cs010101012' + '@163.com'
     pwd = 'JPKVLXFGCBJZAPMJ'
-    receiver = ['CSGO20251351@163.com']
+    # receiver = ['CSGO20251351@163.com']
+    receiver = ['1544781624@qq.com']
     host_server = 'smtp.163.com'
     try:
         msg = MIMEText(mail_content, 'plain', 'utf-8')
@@ -51,8 +52,13 @@ def query_youyou_detail1(id, name, types, header):
                    "listType": 10}
 
     try:
-        res_json = json.loads(requests.post(api_url, headers=header, json=HTTPJSONKEY).text)
+        res_json_str = ''
+        res_json_str = requests.post(api_url, headers=header, json=HTTPJSONKEY).text
+        res_json = json.loads(res_json_str)
+        # res_json = json.loads(requests.post(api_url, headers=header, json=HTTPJSONKEY).text)
     except (Exception, BaseException) as e:
+        if '503' in res_json_str:
+            return False, 'youyou_detail1请求错误 503 Service Temporarily Unavailable'
         print('youyou_detail1', e)
         return False, 'youyou_detail1请求错误' + str(e)
 
@@ -93,8 +99,13 @@ def query_youyou_detail2(id, name, header):
                    "listType": 10}
 
     try:
-        res_json = json.loads(requests.post(api_url, headers=header, json=HTTPJSONKEY).text)
+        res_json_str = ''
+        res_json_str = requests.post(api_url, headers=header, json=HTTPJSONKEY).text
+        res_json = json.loads(res_json_str)
+        # res_json = json.loads(requests.post(api_url, headers=header, json=HTTPJSONKEY).text)
     except (Exception, BaseException) as e:
+        if '503' in res_json_str:
+            return False, 'youyou_detail1请求错误 503 Service Temporarily Unavailable'
         print('youyou_detail2', e)
         return False, 'youyou_detail2请求错误' + str(e)
 
@@ -122,8 +133,13 @@ def query_youyou_detail3(id, name, header):
                    "listType": 30}
 
     try:
-        res_json = json.loads(requests.post(api_url, headers=header, json=HTTPJSONKEY).text)
+        res_json_str = ''
+        res_json_str = requests.post(api_url, headers=header, json=HTTPJSONKEY).text
+        res_json = json.loads(res_json_str)
+        # res_json = json.loads(requests.post(api_url, headers=header, json=HTTPJSONKEY).text)
     except (Exception, BaseException) as e:
+        if '503' in res_json_str:
+            return False, 'youyou_detail1请求错误 503 Service Temporarily Unavailable'
         print('youyou_detail2', e)
         return False, 'youyou_detail2请求错误' + str(e)
 
@@ -298,7 +314,7 @@ def get_res(t_name, source_path, buff_res, header, ua, email_dict, eamil_time_ga
                         print('***********************************')
                         print(key + commodity_res)
 
-                        if 'timed out' not in commodity_res:
+                        if ('timed out' not in commodity_res) and ('503' not in commodity_res):
                             msg = '程序error'
                             print(msg)
                             sign, eamil_res = send_mail(msg, key + commodity_res)
@@ -347,7 +363,7 @@ def get_res(t_name, source_path, buff_res, header, ua, email_dict, eamil_time_ga
             print('***********************************')
             print('***********************************')
             print(commodity_dict)
-            if 'timed out' not in commodity_dict:
+            if ('timed out' not in commodity_dict) and ('503' not in commodity_dict):
                 msg = '程序error'
                 print(msg)
                 sign, eamil_res = send_mail(msg, commodity_dict)
