@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e953f83-15df-4183-90ad-21a4ffa564fb" name="Changes" comment="20220701">
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/商品列表1.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,7 +327,7 @@
       <workItem from="1655260838254" duration="41163000" />
       <workItem from="1655481638281" duration="11316000" />
       <workItem from="1655534525955" duration="606000" />
-      <workItem from="1656601000162" duration="11643000" />
+      <workItem from="1656601000162" duration="11798000" />
     </task>
     <task id="LOCAL-00001" summary="两台电脑跑 暂时告一段落 网页跳转回主页还未修改">
       <created>1642421424773</created>
@@ -443,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656675624834</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="20220701">
+      <created>1656682978600</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656682978600</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
