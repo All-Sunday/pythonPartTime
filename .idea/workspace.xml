@@ -4,115 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e953f83-15df-4183-90ad-21a4ffa564fb" name="Changes" comment="20220606">
-      <change afterPath="$PROJECT_DIR$/appium_10086/fake_useragent.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/setup/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/setup/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/setup/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/setup/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/setup/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/setup/Tree-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/setup/Tree-01.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/setup/Tree-02.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/setup/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/setup/setup.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/setup/setup.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/setup/warn-setup.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/setup/xref-setup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/temp.win-amd64-3.9/Release/pandts.cp39-win_amd64.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/temp.win-amd64-3.9/Release/pandts.cp39-win_amd64.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/build/temp.win-amd64-3.9/Release/pandts.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/dist/10086.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/encode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/fake_useragent.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/license.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/pandts.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/pandts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/pandts.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/seleninm.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_10086/thread2.0/setup.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc_com_2/2/qcc_selenium2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc_com_2/2/qcc_selenium3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc_com_2/2/res/res2019_1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc_com_2/2/res/res2020_1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc_com_2/2/res/res2020_2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc_com_2/2/res/res2021_1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc_com_2/2/res2019_1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc_com_2/2/res2019_2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc_com_2/2/res2020_1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc_com_2/2/res2020_2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc_com_2/2/res2021_1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qcc_com_2/2/res2021_2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0613/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0613/1_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0613/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0613/2_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0613/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0613/3_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0613/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0613/4_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0613/5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0613/5_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0613/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/1_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/2_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/3_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/4_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/5_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/6_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/7_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/9.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/9/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/9/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/9/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/9/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/9/5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/9/6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/9/7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/9/epoch.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/9/jojo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/9/sg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/9/三国人名汇总.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/9/三国演义.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/epoch.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/heart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/jojo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/sg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/三国人名汇总.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/三国演义.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/三国演义数据文件/sg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/三国演义数据文件/三国人名汇总.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0614/三国演义数据文件/三国演义.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0618/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_0409_homework/0618/exam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/buy_txt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/pytransform.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/cg.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/january.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/january.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3e953f83-15df-4183-90ad-21a4ffa564fb" name="Changes" comment="20220701">
+      <change afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/商品列表1.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/pandts.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/pandts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/pandts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/pandts.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_10086/pandts0.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qcc_com_2/qcc_selenium_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/qcc_com_2/2/qcc_selenium.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qcc_com_2/res.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qcc_com_2/res2.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qcc_com_2/创业数据2021 - 副本.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup_last.py" beforeDir="false" afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/setup_last.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/商品列表.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/商品列表.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -434,7 +329,7 @@
       <workItem from="1655260838254" duration="41163000" />
       <workItem from="1655481638281" duration="11316000" />
       <workItem from="1655534525955" duration="606000" />
-      <workItem from="1656601000162" duration="8807000" />
+      <workItem from="1656601000162" duration="11643000" />
     </task>
     <task id="LOCAL-00001" summary="两台电脑跑 暂时告一段落 网页跳转回主页还未修改">
       <created>1642421424773</created>
@@ -541,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654529551239</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="20220701">
+      <created>1656675624834</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656675624834</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +474,8 @@
     <MESSAGE value="20220419" />
     <MESSAGE value="20220522" />
     <MESSAGE value="20220606" />
-    <option name="LAST_COMMIT_MESSAGE" value="20220606" />
+    <MESSAGE value="20220701" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220701" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1173,7 +1076,7 @@
     <SUITE FILE_PATH="coverage/january$Worklist_update6.coverage" NAME="Worklist update6 Coverage Results" MODIFIED="1646988310418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tb_excel_filter" />
     <SUITE FILE_PATH="coverage/january$_1_.coverage" NAME="企查查(1) Coverage Results" MODIFIED="1644919307240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_com" />
     <SUITE FILE_PATH="coverage/january$PY_11_05.coverage" NAME="PY_11_05 Coverage Results" MODIFIED="1652371258647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_11" />
-    <SUITE FILE_PATH="coverage/january$setup.coverage" NAME="setup Coverage Results" MODIFIED="1656647709676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0" />
+    <SUITE FILE_PATH="coverage/january$setup.coverage" NAME="setup Coverage Results" MODIFIED="1656677287811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0" />
     <SUITE FILE_PATH="coverage/january$selenium_openpyxl_9225.coverage" NAME="selenium_openpyxl_9225 Coverage Results" MODIFIED="1642407112181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ic_net_cn" />
     <SUITE FILE_PATH="coverage/january$thresd.coverage" NAME="thresd Coverage Results" MODIFIED="1652670529559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youpin898_com_buff_163_com/2.0/sql/t" />
     <SUITE FILE_PATH="coverage/january$PY_08_06.coverage" NAME="PY_08_06 Coverage Results" MODIFIED="1652962778253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_0323_homework/PY_08" />
