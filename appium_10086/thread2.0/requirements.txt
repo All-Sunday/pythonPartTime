@@ -1,9 +1,0 @@
-pandas
-openpyxl
-requests
-peewee
-wmi
-pyinstaller
-easycython
-pyDes
-fake_useragent
