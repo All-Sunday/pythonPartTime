@@ -173,6 +173,9 @@ def query_buff_detail(id, name, res_dict, header, sleep_time):
     soup = BeautifulSoup(res_html, 'html.parser')
     try:
         target_as = soup.find('div', attrs={'class': 'relative-goods'}).find_all('a')
+        target_a1 = soup.find('a', attrs={'class': 'i_Btn i_Btn_trans_bule active'})
+        print(target_a1)
+        target_as.append(target_a1)
     except (Exception, BaseException) as e:
         print('soup', e)
         if "attribute 'find_all'" in str(e):

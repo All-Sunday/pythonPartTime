@@ -68,7 +68,7 @@ def res_to_excel(df, columns):
     df.to_excel(id + '.xlsx', index=None)    # df输出excel
 
 if __name__ == '__main__':
-    id = 'BV1Fi4y1S7ix'
+    id = 'BV13a411q753'
     api = 'https://api.bilibili.com/x/player/pagelist?bvid=' + id + '&jsonp=jsonp'
     columns = ['page', 'duration']  # 要保存的json数据的列名
     get_res(api, columns)
