@@ -12,6 +12,7 @@ from pdfminer.layout import LTTextBoxHorizontal, LAParams
 from nltk.tokenize import sent_tokenize
 
 
+
 def parse(DataIO):
     # 接受解析结果字符串
     result = ''
